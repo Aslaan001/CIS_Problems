@@ -71,7 +71,7 @@ The next rune greater than `'c'` is `'f'`.
 
 ## Constraints  
 
-- 2 ≤ n ≤ 10⁴  
+- 2 ≤ n ≤ 1e5  
 - Each rune is a lowercase English letter (`'a'` to `'z'`).  
 - The list contains at least two distinct runes. 
 
