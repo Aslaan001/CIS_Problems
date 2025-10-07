@@ -14,11 +14,11 @@ Easy
 ## Description
 
 In the ancient lands of `Runeria`, there lies a mystical collection of `Runes` — each with a unique power value.  
-The Rune Master has given you a sacred task: to select a rune in such a way that chosen rune follow the `Runic Order` (i.e., smallest rune that is lexicographically greater than the target).
+The Rune Master has given you a sacred task: to select a rune in such a way that chosen rune follow the `Runic Order` (i.e., smallest rune that is lexicographically greater than the target). 
 
 But beware! You cannot simply choose any rune greater to target — you must `Choose the rune which is next greater to target in lexographic order` that obey this ancient rule.
 
-Note:- If no such rune exists simply return the first rune in the array.
+Note:- If no such rune exists simply return the first rune.
 
 Your goal is to determine the `ancient rune` that can be collected by the land of Runeria.
 
