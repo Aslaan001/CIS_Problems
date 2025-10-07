@@ -12,7 +12,7 @@ public static char nextRune(char[] letters, char target) {
 
 ## C
 
-char nextRune(char letters[], int n, char target) {
+char nextRune(int n, char letters[],char target) {
     // add your code here
 }
 
