@@ -1,6 +1,6 @@
 ## Title
 
-The Next Rune
+Next Rune
 
 
 ## Slug
@@ -13,13 +13,14 @@ Easy
 
 ## Description
 
-In the land of Lexiconia, ancient runes are arranged in a sacred circle.
-Each rune is a lowercase English letter, and the sequence of runes is always sorted in non-decreasing order.
+In the ancient lands of `Runeria`, there lies a mystical collection of `Runes` — each with a unique power value.  
+The Rune Master has given you a sacred task: to select a rune in such a way that chosen rune follow the `Runic Order` (i.e., smallest rune that is lexicographically greater than the target).
 
-A wandering scribe seeks the next rune that comes after a given target rune in lexicographic order.
-If no rune in the circle is greater than the target, the scribe must wrap around to the first rune in the sequence — because in Lexiconia, the runes form an eternal loop.
+But beware! You cannot simply choose any rune greater to target — you must `Choose the rune which is next greater to target in lexographic order` that obey this ancient rule.
 
-Can you help the scribe find the next rune for a given target?
+Note:- If no such rune exists simply return the first rune in the array.
+
+Your goal is to determine the `ancient rune` that can be collected by the land of Runeria.
 
 ## Examples
 
@@ -58,13 +59,13 @@ The next rune greater than `'c'` is `'f'`.
 ## Input Format  
 
 - First line: an integer `n` — the number of runes.  
-- Second line: `n` space-separated lowercase English letters representing the runes (sorted in non-decreasing order).  
+- Second line: `n` space-separated lowercase English letters representing the runes (sorted in non-decreasing order) stored in array.  
 - Third line: a single lowercase English letter — the target rune.
 
 ## Output Format  
 
-- Print the **smallest rune** that is lexicographically greater than the target.  
-- If no such rune exists, print the **first rune** in the sequence.  
+- Return the `smallest rune` that is lexicographically greater than the target.  
+- If no such rune exists, return the `first rune` in the sequence.  
 
 
 
@@ -84,4 +85,4 @@ The next rune greater than `'c'` is `'f'`.
 
 ## Tags
 
-binary-search, arrays, strings, simulation 
+binary-search, arrays, strings. 
