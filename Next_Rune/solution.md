@@ -52,7 +52,7 @@ public static char nextRune(char[] letters, char target) {
 
 ### SOLUTION
 
-char nextRune(char letters[], int n, char target) {
+char nextRune(int n, char letters[], char target) {
     int l = 0, r = n - 1;
     while (l <= r) {
         int mid = l + (r - l) / 2;
