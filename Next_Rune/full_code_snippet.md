@@ -55,7 +55,7 @@ int main() {
     }
     char target;
     scanf(" %c", &target);
-    printf("%c", nextRune(letters, n, target));
+    printf("%c", nextRune(n,letters,target));
     return 0;
 }
 
