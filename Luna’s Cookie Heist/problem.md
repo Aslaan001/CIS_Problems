@@ -71,7 +71,7 @@ Return a single integer — the `minimum collection speed 's'` that allows Luna 
 
 ## Constraints  
 
-- 1 ≤ n ≤ 1e5  
+- 1 ≤ n ≤ 1e4  
 - n ≤ h ≤ 1e9   
 - 1 ≤ cookies[i] ≤ 1e9  
 
