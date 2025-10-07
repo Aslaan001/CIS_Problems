@@ -5,7 +5,6 @@
 int minCollectionSpeed(vector<int>& cookies, int h) {
     int l = 1, r = 0;
     for(int c : cookies) r = max(r, c);
-
     while(l < r) {
         int mid = l + (r - l) / 2;
         long long hours = 0;
@@ -32,7 +31,6 @@ int minCollectionSpeed(vector<int>& cookies, int h) {
 public static int minCollectionSpeed(int[] cookies, int h) {
     int l = 1, r = 0;
     for(int c : cookies) r = Math.max(r, c);
-
     while(l < r) {
         int mid = l + (r - l) / 2;
         long hours = 0;
@@ -61,7 +59,6 @@ int max(int a, int b) { return a > b ? a : b; }
 int minCollectionSpeed(int cookies[], int n, int h) {
     int l = 1, r = 0;
     for(int i = 0; i < n; i++) r = max(r, cookies[i]);
-
     while(l < r) {
         int mid = l + (r - l) / 2;
         long long hours = 0;
@@ -87,7 +84,6 @@ int minCollectionSpeed(int cookies[], int n, int h) {
 
 function minCollectionSpeed(cookies, h) {
   let l = 1, r = Math.max(...cookies);
-
   while (l < r) {
     let mid = Math.floor((l + r) / 2);
     let hours = 0;
