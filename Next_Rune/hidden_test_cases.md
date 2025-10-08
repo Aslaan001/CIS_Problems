@@ -5,11 +5,11 @@
 ```
 5
 a b c d e
-c
+d
 ```
 **Expected Output**
 ```
-d
+e
 ```
 ---
 ### Test Case 2
@@ -17,11 +17,11 @@ d
 ```
 4
 a b c d
-d
+c
 ```
 **Expected Output**
 ```
-a
+d
 ```
 
 ---
@@ -31,11 +31,11 @@ a
 ```
 6
 a c f j m z
-f
+z
 ```
 **Expected Output**
 ```
-j
+a
 ```
 
 ---
@@ -45,11 +45,11 @@ j
 ```
 3
 x x y
-x
+y
 ```
 **Expected Output**
 ```
-y
+x
 ```
 
 ---
