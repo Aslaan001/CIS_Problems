@@ -65,9 +65,15 @@ Any speed lower than 4 would exceed 8 hours.
 
 #### Explanation
 
-- There are 5 jars and 5 hours.  
-- To finish all jars in `h = 5` hours, Luna must take all cookies from each jar in 1 hour.  
-- Therefore, the collection speed must be equal to the largest jar, which is `30`.
+- Jar 1: 30 cookies → 1 hour  
+- Jar 2: 11 cookies → 1 hour  
+- Jar 3: 23 cookies → 1 hour  
+- Jar 4: 4 cookies  → 1 hour  
+- Jar 5: 20 cookies → 1 hour  
+
+Total hours = 1 + 1 + 1 + 1 + 1 = 5 hours, which matches the allowed time `h = 5`.  
+To finish all jars within 5 hours, Luna must take all cookies from each jar in 1 hour.  
+Therefore, the minimum collection speed is equal to the largest jar, which is `30`.
 
 
 ## Input Format  
