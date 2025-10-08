@@ -13,7 +13,7 @@ Easy
 
 ## Description
 
-In the boundless lands of `Infinitia`, there exists a legendary path lined with `Relics of Time`. These relics are arranged in a `Nubeian Order` `(sorted in non-decreasing order)` along an infinite trail that stretches beyond the horizon.  
+In the boundless lands of `CipherLand`, there exists a legendary path lined with `Relics of Time`. These relics are arranged in a `Nubeian Order` `(sorted in non-decreasing order)` along a trail that stretches beyond the horizon.  
 
 You, the brave Time Seeker, have been tasked to retrieve a specific relic with a `power value 'k'`. But there’s a catch — the trail is very long, and you `cannot traverse it entirely as you have limited time`. You need a clever strategy to locate the relic efficiently without wandering forever.  
 
