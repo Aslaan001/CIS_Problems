@@ -24,7 +24,6 @@ Luna can decide her `collection speed 's'`, which is the number of cookies she c
 
 Luna wants to `collect all cookies` within `h` hours. Your task is to determine the `minimum collection speed 's'` that allows her to finish the job in time.  
 
----
 
 ## Examples
 
