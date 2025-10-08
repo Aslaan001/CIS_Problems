@@ -41,7 +41,15 @@ Luna wants to `collect all cookies` within `h` hours. Your task is to determine 
 
 #### Explanation
 
-Luna can collect all cookies in 8 hours if she collects 4 cookies per hour.
+At speed `s = 4`:
+
+- Jar 1: 3 cookies → 1 hour  
+- Jar 2: 6 cookies → 2 hours  
+- Jar 3: 7 cookies → 2 hours  
+- Jar 4: 11 cookies → 3 hours  
+
+Total hours = 1 + 2 + 2 + 3 = 8 hours, which fits exactly in the limit.  
+Any speed lower than 4 would exceed 8 hours.
 
 ### 2
 
@@ -54,6 +62,12 @@ Luna can collect all cookies in 8 hours if she collects 4 cookies per hour.
 #### Output
 
 30
+
+#### Explanation
+
+There are 5 jars and 5 hours.  
+To finish each jar in 1 hour, Luna must take all cookies from each jar in that hour.  
+Thus, the minimum collection speed must be equal to the largest jar, which is 30.
 
 
 ## Input Format  
