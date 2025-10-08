@@ -30,8 +30,11 @@ int relicSearch(vector<int>& relics, int key) {
 
 public static int relicSearch(int[] relics, int key) {
     int low = 0, high = 1;
-    while (high < relics.length && relics[high] < key)
-        low = high; high *= 2;
+    while (high < relics.length && relics[high] < key){
+        low = high;
+        high *= 2;
+    
+    }
     high = Math.min(high, relics.length - 1);
     while (low <= high) {
         int mid = low + (high - low) / 2;
