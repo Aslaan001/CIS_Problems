@@ -111,7 +111,7 @@ x
 ### Test Case 9
 **Input**
 ```
-3
+6
 x x y y z z 
 z
 ```
