@@ -24,7 +24,6 @@ If it doesn’t, return `-1`.
 
 `Note: Use '0' based indexing`.
 
----
 
 ## Examples
 
