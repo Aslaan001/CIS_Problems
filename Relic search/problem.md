@@ -13,13 +13,16 @@ Easy
 
 ## Description
 
-In the boundless lands of `CipherLand`, there exists a legendary path lined with `Relics of Time`. These relics are arranged in a `Nubeian Order` `(sorted in non-decreasing order)` along a trail that stretches beyond the horizon.  
+In the vast lands of `CipherLand`, relics with mysterious power values are arranged along a long trail in `non-decreasing order`, just like a sorted array called `relics[]`.  
 
-You, the brave Time Seeker, have been tasked to retrieve a specific relic with a `power value 'k'`. But there’s a catch — the trail is very long, and you `cannot traverse it entirely as you have limited time`. You need a clever strategy to locate the relic efficiently without wandering forever.  
+You, the `Time Seeker`, are looking for a relic with a specific power value `k`.  
+The trail is endless, so you cannot check every relic one by one.  
+You must use a `smart and efficient method` to find your target.  
 
-The relics are stored conceptually in an `sorted array 'relics[]'`. Your mission is to find the `index of the target relic`. If the relic is not present, you must return `-1`.
+If the relic exists, return its `index`.  
+If it doesn’t, return `-1`.  
 
-Note:- we are assuming `'0'` based indexing here
+`Note: Use '0' based indexing`.
 
 ---
 
