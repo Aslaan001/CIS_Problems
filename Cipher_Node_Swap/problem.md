@@ -9,11 +9,7 @@ cipher-node-swap
 
 ## Difficulty
 
-<<<<<<< HEAD
-Medium.
-=======
-Medium 
->>>>>>> 1bbe67a04c6608ba5ae2884478ea68a151a68c7c
+Medium
 
 ## Description
 
