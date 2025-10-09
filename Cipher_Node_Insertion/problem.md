@@ -21,7 +21,7 @@ A position of `1` means placing it after the first node, and so on.
 
 Your mission is to insert the node correctly and return the updated `Cipher Chain`.
 
----
+
 
 ## Examples
 
