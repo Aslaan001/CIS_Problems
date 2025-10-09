@@ -9,7 +9,7 @@ cipher-node-swap
 
 ## Difficulty
 
-Easy
+Medium
 
 ## Description
 
