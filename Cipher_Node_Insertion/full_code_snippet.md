@@ -34,19 +34,23 @@ void printLinkedList(Node* head) {
 }
 
 int main() {
-    int n;
-    cin >> n;
-    vector<int> nodes(n);
-    for (int i = 0; i < n; i++) cin >> nodes[i];
-    int data, position;
-    cin >> data >> position;
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> nodes(n);
+        for (int i = 0; i < n; i++) cin >> nodes[i];
+        int data, position;
+        cin >> data >> position;
 
-    Node* head = createLinkedList(nodes);
-    head = insertNode(head, data, position);
-    printLinkedList(head);
+        Node* head = createLinkedList(nodes);
+        head = insertNode(head, data, position);
+        printLinkedList(head);
+        cout << "\n";
+    }
     return 0;
 }
-
 
 
 ## JAVA
@@ -82,22 +86,27 @@ public class Main {
             System.out.print(curr.data + " ");
             curr = curr.next;
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] nodes = new int[n];
-        for (int i = 0; i < n; i++) nodes[i] = sc.nextInt();
-        int data = sc.nextInt();
-        int position = sc.nextInt();
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] nodes = new int[n];
+            for (int i = 0; i < n; i++) nodes[i] = sc.nextInt();
+            int data = sc.nextInt();
+            int position = sc.nextInt();
 
-        Node head = createLinkedList(nodes);
-        head = insertNode(head, data, position);
-        printLinkedList(head);
+            Node head = createLinkedList(nodes);
+            head = insertNode(head, data, position);
+            printLinkedList(head);
+        }
         sc.close();
     }
 }
+
 
 ## C
 
@@ -132,19 +141,24 @@ void printLinkedList(struct Node* head) {
         printf("%d ", head->data);
         head = head->next;
     }
+    printf("\n");
 }
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    int vals[n];
-    for (int i = 0; i < n; i++) scanf("%d", &vals[i]);
-    int data, position;
-    scanf("%d %d", &data, &position);
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        int vals[n];
+        for (int i = 0; i < n; i++) scanf("%d", &vals[i]);
+        int data, position;
+        scanf("%d %d", &data, &position);
 
-    struct Node* head = createLinkedList(vals, n);
-    head = insertNode(head, data, position);
-    printLinkedList(head);
+        struct Node* head = createLinkedList(vals, n);
+        head = insertNode(head, data, position);
+        printLinkedList(head);
+    }
     return 0;
 }
 
@@ -184,15 +198,20 @@ function printLinkedList(head) {
 function main() {
     const fs = require("fs");
     const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+    let idx = 0;
 
-    const n = parseInt(input[0]);
-    const vals = input.slice(1, n + 1).map(Number);
-    const data = parseInt(input[n + 1]);
-    const position = parseInt(input[n + 2]);
+    const t = parseInt(input[idx++]);
+    for (let tc = 0; tc < t; tc++) {
+        const n = parseInt(input[idx++]);
+        const vals = [];
+        for (let i = 0; i < n; i++) vals.push(Number(input[idx++]));
+        const data = parseInt(input[idx++]);
+        const position = parseInt(input[idx++]);
 
-    let head = createLinkedList(vals);
-    head = insertNode(head, data, position);
-    printLinkedList(head);
+        let head = createLinkedList(vals);
+        head = insertNode(head, data, position);
+        printLinkedList(head);
+    }
 }
 
 main();
@@ -208,8 +227,6 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
-# user code comes here
 
 def create_linked_list(vals):
     if not vals: return None
@@ -229,19 +246,20 @@ def print_linked_list(head):
     print(*res)
 
 def main():
-    n = int(input())
-    vals = list(map(int, input().split()))
-    
-    # Read data and position safely even if given on separate lines
-    inputs = []
-    while len(inputs) < 2:
-        inputs += list(map(int, input().split()))
-    
-    data, position = inputs[0], inputs[1]
-    
-    head = create_linked_list(vals)
-    head = insert_node(head, data, position)
-    print_linked_list(head)
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        vals = list(map(int, input().split()))
+
+        inputs = []
+        while len(inputs) < 2:
+            inputs += list(map(int, input().split()))
+
+        data, position = inputs[0], inputs[1]
+
+        head = create_linked_list(vals)
+        head = insert_node(head, data, position)
+        print_linked_list(head)
 
 if __name__ == "__main__":
     main()

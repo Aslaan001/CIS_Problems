@@ -6,13 +6,18 @@ using namespace std;
 // user code comes here
 
 int main() {
-    int n;
-    cin >> n;
-    string s;
-    cin >> s;
-    cout << goodSubstrings(s);
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        string s;
+        cin >> s;
+        cout << goodSubstrings(s) << "\n";
+    }
     return 0;
 }
+
 
 ## JAVA
 
@@ -23,12 +28,16 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String s = sc.next();
-        System.out.print(goodSubstrings(s));
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            String s = sc.next();
+            System.out.println(goodSubstrings(s));
+        }
         sc.close();
     }
 }
+
 
 ## C
 
@@ -38,13 +47,18 @@ public class Main {
 // user code comes here
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    char s[n+1];
-    scanf("%s", s);
-    printf("%d", goodSubstrings(s));
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        char s[n + 1];
+        scanf("%s", s);
+        printf("%d\n", goodSubstrings(s));
+    }
     return 0;
 }
+
 
 ## JAVASCRIPT
 
@@ -53,23 +67,29 @@ int main() {
 function main() {
   const fs = require("fs");
   const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+  let idx = 0;
+  const t = parseInt(input[idx++]);
 
-  const n = parseInt(input[0]);
-  const s = input[1];
-
-  console.log(goodSubstrings(s));
+  for (let _ = 0; _ < t; _++) {
+    const n = parseInt(input[idx++]);
+    const s = input[idx++];
+    console.log(goodSubstrings(s));
+  }
 }
 
 main();
+
 
 ## PYTHON
 
 # user code comes here
 
 def main():
-    n = int(input())
-    s = input().strip()
-    print(goodSubstrings(s))
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        s = input().strip()
+        print(goodSubstrings(s))
 
 if __name__ == "__main__":
     main()

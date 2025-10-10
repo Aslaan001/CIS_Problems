@@ -6,15 +6,19 @@ using namespace std;
 // user code comes here
 
 int main() {
-    int n;
-    cin >> n;
-    vector<char> letters(n);
-    for (int i = 0; i < n; i++) {
-        cin >> letters[i];
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<char> letters(n);
+        for (int i = 0; i < n; i++) {
+            cin >> letters[i];
+        }
+        char target;
+        cin >> target;
+        cout << nextRune(letters, target) << "\n";
     }
-    char target;
-    cin >> target;
-    cout << nextRune(letters, target);
     return 0;
 }
 
@@ -27,13 +31,16 @@ public class Main {
     // user code comes here
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        char[] letters = new char[n];
-        for (int i = 0; i < n; i++) {
-            letters[i] = sc.next().charAt(0);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            char[] letters = new char[n];
+            for (int i = 0; i < n; i++) {
+                letters[i] = sc.next().charAt(0);
+            }
+            char target = sc.next().charAt(0);
+            System.out.println(nextRune(letters, target));
         }
-        char target = sc.next().charAt(0);
-        System.out.print(nextRune(letters, target));
         sc.close();
     }
 }
@@ -47,17 +54,22 @@ public class Main {
 // user code comes here
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    char letters[n];
-    for (int i = 0; i < n; i++) {
-        scanf(" %c", &letters[i]);
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        char letters[n];
+        for (int i = 0; i < n; i++) {
+            scanf(" %c", &letters[i]);
+        }
+        char target;
+        scanf(" %c", &target);
+        printf("%c\n", nextRune(n, letters, target));
     }
-    char target;
-    scanf(" %c", &target);
-    printf("%c", nextRune(n,letters,target));
     return 0;
 }
+
 
 ## JAVASCRIPT
 
@@ -66,12 +78,16 @@ int main() {
 function main() {
   const fs = require("fs");
   const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+  let idx = 0;
+  const t = parseInt(input[idx++]);
 
-  const n = parseInt(input[0]);
-  const letters = input.slice(1, n + 1);
-  const target = input[n + 1];
-
-  console.log(nextRune(letters, target));
+  for (let _ = 0; _ < t; _++) {
+    const n = parseInt(input[idx++]);
+    const letters = input.slice(idx, idx + n);
+    idx += n;
+    const target = input[idx++];
+    console.log(nextRune(letters, target));
+  }
 }
 
 main();
@@ -84,10 +100,12 @@ import collections
 # user code comes here
 
 def main():
-    n = int(input())
-    letters = input().split()
-    target = input().strip()
-    print(nextRune(letters, target))
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        letters = input().split()
+        target = input().strip()
+        print(nextRune(letters, target))
 
 if __name__ == "__main__":
     main()

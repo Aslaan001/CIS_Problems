@@ -6,15 +6,19 @@ using namespace std;
 // user code comes here
 
 int main() {
-    int n;
-    cin >> n;
-    vector<int> cookies(n);
-    for (int i = 0; i < n; i++) {
-        cin >> cookies[i];
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> cookies(n);
+        for (int i = 0; i < n; i++) {
+            cin >> cookies[i];
+        }
+        int h;
+        cin >> h;
+        cout << minCollectionSpeed(cookies, h) << "\n";
     }
-    int h;
-    cin >> h;
-    cout << minCollectionSpeed(cookies, h);
     return 0;
 }
 
@@ -27,13 +31,16 @@ public class Main {
     // user code comes here
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] cookies = new int[n];
-        for (int i = 0; i < n; i++) {
-            cookies[i] = sc.nextInt();
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] cookies = new int[n];
+            for (int i = 0; i < n; i++) {
+                cookies[i] = sc.nextInt();
+            }
+            int h = sc.nextInt();
+            System.out.println(minCollectionSpeed(cookies, h));
         }
-        int h = sc.nextInt();
-        System.out.print(minCollectionSpeed(cookies, h));
         sc.close();
     }
 }
@@ -47,17 +54,22 @@ public class Main {
 // user code comes here
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    int cookies[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &cookies[i]);
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        int cookies[n];
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &cookies[i]);
+        }
+        int h;
+        scanf("%d", &h);
+        printf("%d\n", minCollectionSpeed(cookies, n, h));
     }
-    int h;
-    scanf("%d", &h);
-    printf("%d", minCollectionSpeed(cookies, n, h));
     return 0;
 }
+
 
 ## JAVASCRIPT
 
@@ -66,12 +78,16 @@ int main() {
 function main() {
   const fs = require("fs");
   const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+  let idx = 0;
+  const t = parseInt(input[idx++]);
 
-  const n = parseInt(input[0]);
-  const cookies = input.slice(1, n + 1).map(Number);
-  const h = parseInt(input[n + 1]);
-
-  console.log(minCollectionSpeed(cookies, h));
+  for (let _ = 0; _ < t; _++) {
+    const n = parseInt(input[idx++]);
+    const cookies = input.slice(idx, idx + n).map(Number);
+    idx += n;
+    const h = parseInt(input[idx++]);
+    console.log(minCollectionSpeed(cookies, h));
+  }
 }
 
 main();
@@ -79,15 +95,15 @@ main();
 
 ## PYTHON
 
-import collections
-
 # user code comes here
 
 def main():
-    n = int(input())
-    cookies = list(map(int, input().split()))
-    h = int(input())
-    print(minCollectionSpeed(cookies, h))
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        cookies = list(map(int, input().split()))
+        h = int(input())
+        print(minCollectionSpeed(cookies, h))
 
 if __name__ == "__main__":
     main()

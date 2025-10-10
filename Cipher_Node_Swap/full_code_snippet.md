@@ -14,23 +14,6 @@ class Node {
 };
 
 // user code comes here
-Node* swapNodes(Node* head, int k) {
-    if (!head) return nullptr;
-    Node *first = nullptr, *second = nullptr, *curr = head;
-    int n = 0;
-    while (curr) {
-        n++;
-        curr = curr->next;
-    }
-    curr = head;
-    for (int i = 1; i <= n; i++) {
-        if (i == k) first = curr;
-        if (i == n - k + 1) second = curr;
-        curr = curr->next;
-    }
-    if (first && second) swap(first->data, second->data);
-    return head;
-}
 
 Node* createLinkedList(const vector<int>& vals) {
     if (vals.empty()) return nullptr;
@@ -51,19 +34,23 @@ void printLinkedList(Node* head) {
 }
 
 int main() {
-    int n;
-    cin >> n;
-    vector<int> nodes(n);
-    for (int i = 0; i < n; i++) cin >> nodes[i];
-    int k;
-    cin >> k;
-    Node* head = createLinkedList(nodes);
-    head = swap_nodes(head, k);
-    printLinkedList(head);
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> nodes(n);
+        for (int i = 0; i < n; i++) cin >> nodes[i];
+        int data, position;
+        cin >> data >> position;
+
+        Node* head = createLinkedList(nodes);
+        head = insertNode(head, data, position);
+        printLinkedList(head);
+        cout << "\n";
+    }
     return 0;
 }
-
-
 
 
 ## JAVA
@@ -81,27 +68,6 @@ class Node {
 
 public class Main {
     // user code comes here
-    public static Node swapNodes(Node head, int k) {
-        if (head == null) return null;
-        Node first = null, second = null, curr = head;
-        int n = 0;
-        while (curr != null) {
-            n++;
-            curr = curr.next;
-        }
-        curr = head;
-        for (int i = 1; i <= n; i++) {
-            if (i == k) first = curr;
-            if (i == n - k + 1) second = curr;
-            curr = curr.next;
-        }
-        if (first != null && second != null) {
-            int temp = first.data;
-            first.data = second.data;
-            second.data = temp;
-        }
-        return head;
-    }
 
     public static Node createLinkedList(int[] vals) {
         if (vals.length == 0) return null;
@@ -120,18 +86,23 @@ public class Main {
             System.out.print(curr.data + " ");
             curr = curr.next;
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] nodes = new int[n];
-        for (int i = 0; i < n; i++) nodes[i] = sc.nextInt();
-        int k = sc.nextInt();
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] nodes = new int[n];
+            for (int i = 0; i < n; i++) nodes[i] = sc.nextInt();
+            int data = sc.nextInt();
+            int position = sc.nextInt();
 
-        Node head = createLinkedList(nodes);
-        head = swap_nodes(head, k);
-        printLinkedList(head);
+            Node head = createLinkedList(nodes);
+            head = insertNode(head, data, position);
+            printLinkedList(head);
+        }
         sc.close();
     }
 }
@@ -148,28 +119,6 @@ struct Node {
 };
 
 // user code comes here
-
-struct Node* swapNodes(struct Node* head, int k) {
-    if (!head) return NULL;
-    struct Node *first = NULL, *second = NULL, *curr = head;
-    int n = 0;
-    while (curr) {
-        n++;
-        curr = curr->next;
-    }
-    curr = head;
-    for (int i = 1; i <= n; i++) {
-        if (i == k) first = curr;
-        if (i == n - k + 1) second = curr;
-        curr = curr->next;
-    }
-    if (first && second) {
-        int temp = first->data;
-        first->data = second->data;
-        second->data = temp;
-    }
-    return head;
-}
 
 struct Node* createLinkedList(int* vals, int n) {
     if (n == 0) return NULL;
@@ -192,22 +141,26 @@ void printLinkedList(struct Node* head) {
         printf("%d ", head->data);
         head = head->next;
     }
+    printf("\n");
 }
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    int vals[n];
-    for (int i = 0; i < n; i++) scanf("%d", &vals[i]);
-    int k;
-    scanf("%d", &k);
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        int vals[n];
+        for (int i = 0; i < n; i++) scanf("%d", &vals[i]);
+        int data, position;
+        scanf("%d %d", &data, &position);
 
-    struct Node* head = createLinkedList(vals, n);
-    head = swap_nodes(head, k);
-    printLinkedList(head);
+        struct Node* head = createLinkedList(vals, n);
+        head = insertNode(head, data, position);
+        printLinkedList(head);
+    }
     return 0;
 }
-
 
 
 ## JAVASCRIPT
@@ -220,26 +173,6 @@ class Node {
 }
 
 // user code comes here
-
-
-function swapNodes(head, k) {
-    if (!head) return null;
-    let curr = head, first = null, second = null, n = 0;
-    while (curr) {
-        n++;
-        curr = curr.next;
-    }
-    curr = head;
-    for (let i = 1; i <= n; i++) {
-        if (i === k) first = curr;
-        if (i === n - k + 1) second = curr;
-        curr = curr.next;
-    }
-    if (first && second) {
-        [first.data, second.data] = [second.data, first.data];
-    }
-    return head;
-}
 
 function createLinkedList(vals) {
     if (vals.length === 0) return null;
@@ -255,7 +188,7 @@ function createLinkedList(vals) {
 function printLinkedList(head) {
     let res = [];
     let curr = head;
-    while (curr) {
+    while (curr !== null) {
         res.push(curr.data);
         curr = curr.next;
     }
@@ -265,14 +198,20 @@ function printLinkedList(head) {
 function main() {
     const fs = require("fs");
     const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+    let idx = 0;
 
-    const n = parseInt(input[0]);
-    const vals = input.slice(1, n + 1).map(Number);
-    const k = parseInt(input[n + 1]);
+    const t = parseInt(input[idx++]);
+    for (let tc = 0; tc < t; tc++) {
+        const n = parseInt(input[idx++]);
+        const vals = [];
+        for (let i = 0; i < n; i++) vals.push(Number(input[idx++]));
+        const data = parseInt(input[idx++]);
+        const position = parseInt(input[idx++]);
 
-    let head = createLinkedList(vals);
-    head = swap_nodes(head, k);
-    printLinkedList(head);
+        let head = createLinkedList(vals);
+        head = insertNode(head, data, position);
+        printLinkedList(head);
+    }
 }
 
 main();
@@ -282,31 +221,12 @@ main();
 
 import collections
 
+# user code comes here
 
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
-# user code comes here
-def swap_nodes(head, k):
-    if not head:
-        return None
-    curr = head
-    n = 0
-    while curr:
-        n += 1
-        curr = curr.next
-    first = second = head
-    curr = head
-    for i in range(1, n + 1):
-        if i == k:
-            first = curr
-        if i == n - k + 1:
-            second = curr
-        curr = curr.next
-    first.data, second.data = second.data, first.data
-    return head
 
 def create_linked_list(vals):
     if not vals: return None
@@ -326,12 +246,20 @@ def print_linked_list(head):
     print(*res)
 
 def main():
-    n = int(input())
-    vals = list(map(int, input().split()))
-    k = int(input())
-    head = create_linked_list(vals)
-    head = swap_nodes(head, k)
-    print_linked_list(head)
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        vals = list(map(int, input().split()))
+
+        inputs = []
+        while len(inputs) < 2:
+            inputs += list(map(int, input().split()))
+
+        data, position = inputs[0], inputs[1]
+
+        head = create_linked_list(vals)
+        head = insert_node(head, data, position)
+        print_linked_list(head)
 
 if __name__ == "__main__":
     main()

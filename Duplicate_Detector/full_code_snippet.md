@@ -1,20 +1,22 @@
 ## CPP
 
-## CPP
-
 #include <bits/stdc++.h>
 using namespace std;
 
 // user code comes here
 
 int main() {
-    int n;
-    cin >> n;
-    vector<int> nums(n);
-    for (int i = 0; i < n; i++) cin >> nums[i];
-    int k;
-    cin >> k;
-    cout << (duplicateDetector(nums, k) ? "true" : "false");
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> nums(n);
+        for (int i = 0; i < n; i++) cin >> nums[i];
+        int k;
+        cin >> k;
+        cout << (duplicateDetector(nums, k) ? "true" : "false") << "\n";
+    }
     return 0;
 }
 
@@ -25,17 +27,19 @@ import java.util.*;
 
 public class Main {
     // user code comes here
-    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] nums = new int[n];
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] nums = new int[n];
+            for (int i = 0; i < n; i++) {
+                nums[i] = sc.nextInt();
+            }
+            int k = sc.nextInt();
+            System.out.println(duplicateDetector(nums, k) ? "true" : "false");
         }
-        int k = sc.nextInt();
-        System.out.print(duplicateDetector(nums, k) ? "true" : "false");
         sc.close();
     }
 }
@@ -50,17 +54,22 @@ public class Main {
 // user code comes here
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    int nums[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &nums[i]);
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        int nums[n];
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &nums[i]);
+        }
+        int k;
+        scanf("%d", &k);
+        printf("%s\n", duplicateDetector(n, nums, k) ? "true" : "false");
     }
-    int k;
-    scanf("%d", &k);
-    printf("%s", duplicateDetector(n, nums, k) ? "true" : "false");
     return 0;
 }
+
 
 ## JAVASCRIPT
 
@@ -69,12 +78,16 @@ int main() {
 function main() {
   const fs = require("fs");
   const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+  let idx = 0;
+  const t = parseInt(input[idx++]);
 
-  const n = parseInt(input[0]);
-  const nums = input.slice(1, n + 1).map(Number);
-  const k = parseInt(input[n + 1]);
-
-  console.log(duplicateDetector(nums, k) ? "true" : "false");
+  for (let _ = 0; _ < t; _++) {
+    const n = parseInt(input[idx++]);
+    const nums = [];
+    for (let i = 0; i < n; i++) nums.push(parseInt(input[idx++]));
+    const k = parseInt(input[idx++]);
+    console.log(duplicateDetector(nums, k) ? "true" : "false");
+  }
 }
 
 main();
@@ -87,11 +100,12 @@ import collections
 # user code comes here
 
 def main():
-    n = int(input())
-    nums = list(map(int, input().split()))
-    k = int(input())
-    print("true" if duplicateDetector(nums, k) else "false")
-
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        nums = list(map(int, input().split()))
+        k = int(input())
+        print("true" if duplicateDetector(nums, k) else "false")
 
 if __name__ == "__main__":
     main()
