@@ -13,7 +13,7 @@ Easy
 ## Description
 
 
-In the land of `Averon`, numbers in the sacred scroll `Nums` represent the brightness of stars.  
+In the Sky of `Arexona`, numbers in the `Nums` represent the brightness of stars.  
 Your task, as the `Celestial Mathematician`, is to find the `subarray of length k` that has the `highest average brightness``.
 
 Return this `maximum average value`, accurate up to `10⁻⁵`.
