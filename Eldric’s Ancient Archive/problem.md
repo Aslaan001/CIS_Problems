@@ -68,15 +68,14 @@ The 3rd smallest code is 3.
 
 ## Output Format  
 
-Return a single integer — the k-th smallest scroll code in the archive. 
+Return a single integer — the `sum of all the deepest leaves`.
 
 
 
 ## Constraints  
 
 - 1 ≤ n ≤ 10⁴  
-- 1 ≤ k ≤ n  
-- 0 ≤ Node.val ≤ 10⁴
+- 1 ≤ Node.val ≤ 100
 
 ## Time Limit
 
@@ -88,4 +87,4 @@ Return a single integer — the k-th smallest scroll code in the archive.
 
 ## Tags
 
-binary-search-tree, inorder-traversal, tree, recursion 
+tree, bfs, dfs, level-order-traversal
