@@ -13,7 +13,7 @@ Medium
 
 ## Description
 
-In the mystical forest of `Elaria`, an ancient `Tree of Life` grows — each node of the tree holds a number representing the life energy of that part of the forest.  
+In the mystical forest , An ancient `Tree of Life` grows — each node of the tree holds a number representing the life energy of that part of the forest.  
 
 Your task, as the `Forest Sage`, is to find the `sum of values of the deepest leaves` in the tree — the leaves that lie at the greatest depth.
 
