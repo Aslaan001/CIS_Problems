@@ -22,11 +22,6 @@ Eldric often needs to retrieve the k-th smallest scroll code — the scroll that
 
 Your task is to help Eldric find this k-th smallest code from the archive.
 
----
-## Examples
-
-### 1
-#### Input
 
 ## Examples
 

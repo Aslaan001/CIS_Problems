@@ -12,9 +12,9 @@ Easy
 
 ## Description
 
-In `CipherLand`, every Cipher Sequence hides secret powers in its numbers.  
+In `CipherWorld`, every Cipher Sequence hides secret powers in its numbers.  
 
-You, the `Cipher Seeker`, have discovered a mission: find the `maximum sum of any contiguous subarray of size 'k'` in the Cipher Sequence.  
+You, the `Mystic Seeker`, have discovered a mission: find the `maximum sum of any contiguous subarray of size 'k'` in the Cipher Sequence.  
 
 Return the maximum sum that can be obtained.
 

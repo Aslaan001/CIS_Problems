@@ -16,7 +16,7 @@ Easy
 In the vast lands of `CipherLand`, relics with mysterious power values are arranged along a long trail in `non-decreasing order`, just like a sorted array called `relics[]`.  
 
 You, the `Time Seeker`, are looking for a relic with a specific power value `k`.  
-The trail is endless, so you cannot check every relic one by one.  
+
 You must use a `smart and efficient method` to find your target.  
 
 If the relic exists, return its `index`.  

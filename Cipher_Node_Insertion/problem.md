@@ -66,6 +66,8 @@ After inserting the node with value `25` at position `0`, the updated Cipher Cha
 - Second line: `n` integers representing the data values of each node.  
 - Third line: two integers — `data` (value of the new node) and `position` (where to insert it).
 
+-Note:- The Node are given in the form Of LinkList
+
 
 ## Output Format  
 

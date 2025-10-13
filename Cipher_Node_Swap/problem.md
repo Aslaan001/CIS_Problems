@@ -68,10 +68,12 @@ Updated chain: `7->9->6->6->8->7->3->0->9->5`
 - Second line: `n` integers — the data values of the nodes.  
 - Third line: integer `k` — the node position to swap from the start and end (1-based indexing).
 
+-Note:- The Nodes are given in the form of linklist
+
 
 ## Output Format  
 
-Return the updated Cipher Chain after performing the swap.
+Return Head of updated Cipher Chain after performing the swap.
 
 
 

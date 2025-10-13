@@ -26,9 +26,9 @@ If such a pair exists, return `true`; otherwise, return `false`.
 
 #### Input
 
-4
-1 2 3 1
-3
+5
+1 0 1 1 3
+1
 
 #### Output
 
@@ -36,16 +36,17 @@ true
 
 #### Explanation
 
-The number `1` appears twice, and the distance between the two `1`s is `3 - 0 = 3`, which is ≤ `k (3)`.  
-Hence, return `true`.
+The number `1` repeats at indices `2` and `3`, and their distance is `1`, which is ≤ `k (1)`.  
+Hence, return `true`. 
+
 
 ### 2
 
 #### Input
 
 6
-1 2 3 1 2 3
-2
+4 5 6 7 8 4
+3
 
 #### Output
 
@@ -53,8 +54,9 @@ false
 
 #### Explanation
 
-No duplicate numbers appear within a distance of `2`.  
-All repeated numbers are farther apart.
+The duplicate number `4` appears at indices `0` and `5`.  
+The distance between them is `5`, which is greater than `k (3)`.  
+Therefore, return `false`.
 
 ## Input Format  
 

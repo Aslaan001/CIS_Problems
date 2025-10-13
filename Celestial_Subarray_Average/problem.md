@@ -13,13 +13,12 @@ Easy
 ## Description
 
 
-In the realm of `Averon`, celestial scholars study patterns hidden within the stars — represented as numbers in the sacred scroll of `Nums`.  
+In the land of `Averon`, numbers in the sacred scroll `Nums` represent the brightness of stars.  
+Your task, as the `Celestial Mathematician`, is to find the `subarray of length k` that has the `highest average brightness``.
 
-Your task, as the `Celestial Mathematician`, is to discover the `subarray of length 'k' ` that holds the `highest average value`.  
+Return this `maximum average value`, accurate up to `10⁻⁵`.
 
-You must compute and return this `maximum average`, accurate up to `10⁻⁵`.  
-
-If multiple subarrays yield the same average, any of them is acceptable — the heavens shall honor your precision.
+If there are multiple subarrays with the same average, returning any one of them is perfectly fine.
 
 
 

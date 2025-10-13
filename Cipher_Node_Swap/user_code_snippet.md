@@ -69,10 +69,10 @@ function swap_nodes(head, k) {
 
 ## PYTHON
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
+# class Node:
+#    def __init__(self, data):
+#        self.data = data
+#        self.next = None
 
 def swap_nodes(head, k):
     # add your code here

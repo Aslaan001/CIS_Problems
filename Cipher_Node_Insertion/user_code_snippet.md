@@ -69,10 +69,10 @@ function insertNode(head, data, position) {
 
 ## PYTHON
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
+# class Node:
+#    def __init__(self, data):
+#        self.data = data
+#        self.next = None
 
 def insert_node(head, data, position):
     # add your code here
