@@ -41,11 +41,11 @@ int main() {
         cin >> n;
         vector<int> nodes(n);
         for (int i = 0; i < n; i++) cin >> nodes[i];
-        int data, position;
-        cin >> data >> position;
+        int k;
+        cin >> k;
 
         Node* head = createLinkedList(nodes);
-        head = insertNode(head, data, position);
+        head = swap_nodes(head,k);
         printLinkedList(head);
         cout << "\n";
     }
@@ -96,11 +96,10 @@ public class Main {
             int n = sc.nextInt();
             int[] nodes = new int[n];
             for (int i = 0; i < n; i++) nodes[i] = sc.nextInt();
-            int data = sc.nextInt();
-            int position = sc.nextInt();
+            int k = sc.nextInt();
 
             Node head = createLinkedList(nodes);
-            head = insertNode(head, data, position);
+            head = swap_nodes(head,k);
             printLinkedList(head);
         }
         sc.close();
@@ -152,11 +151,11 @@ int main() {
         scanf("%d", &n);
         int vals[n];
         for (int i = 0; i < n; i++) scanf("%d", &vals[i]);
-        int data, position;
-        scanf("%d %d", &data, &position);
+        int k;
+        scanf("%d", &k);
 
         struct Node* head = createLinkedList(vals, n);
-        head = insertNode(head, data, position);
+        head = swap_nodes(head,k);
         printLinkedList(head);
     }
     return 0;
@@ -205,11 +204,10 @@ function main() {
         const n = parseInt(input[idx++]);
         const vals = [];
         for (let i = 0; i < n; i++) vals.push(Number(input[idx++]));
-        const data = parseInt(input[idx++]);
-        const position = parseInt(input[idx++]);
+        const k = parseInt(input[idx++]);
 
         let head = createLinkedList(vals);
-        head = insertNode(head, data, position);
+        head = swap_nodes(head, k);
         printLinkedList(head);
     }
 }
@@ -255,10 +253,10 @@ def main():
         while len(inputs) < 2:
             inputs += list(map(int, input().split()))
 
-        data, position = inputs[0], inputs[1]
+            k= inputs[0]
 
         head = create_linked_list(vals)
-        head = insert_node(head, data, position)
+        head = swap_nodes(head, k)
         print_linked_list(head)
 
 if __name__ == "__main__":
