@@ -4,15 +4,7 @@
 using namespace std;
 
 // user code comes here 
-int runningTreasureTarget(vector<int>& arr, int target) {
-    long long sum = 0;
-    for (int i = 0; i < arr.size(); i++) {
-        sum += arr[i];
-        if (sum >= target)
-            return i;
-    }
-    return -1;
-}
+
 
 int main() {
 
@@ -40,15 +32,7 @@ import java.util.*;
 
 public class Main {
     // user code comes here
-    public static int runningTreasureTarget(int[] arr, int target) {
-        long sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-            if (sum >= target)
-                return i;
-        }
-        return -1;
-    }
+   
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -73,15 +57,7 @@ public class Main {
 #include <stdlib.h>
 
 // user code comes here
-int runningTreasureTarget(int nums[], int n, long long target) {
-    long long sum = 0;
-    for (int i = 0; i < n; i++) {
-        sum += nums[i];
-        if (sum >= target)
-            return i;
-    }
-    return -1;
-}
+
 
 int main() {
     int t;
@@ -104,14 +80,6 @@ int main() {
 ## JAVASCRIPT
 
 // user code comes here
-function runningTreasureTarget(nums, target) {
-  let sum = 0;
-  for (let i = 0; i < nums.length; i++) {
-    sum += nums[i];
-    if (sum >= target) return i;
-  }
-  return -1;
-}
 
 function main() {
   const fs = require("fs");
@@ -134,13 +102,6 @@ main();
 ## PYTHON
 
 # user code comes here
-def runningTreasureTarget(nums, target):
-    total = 0
-    for i, val in enumerate(nums):
-        total += val
-        if total >= target:
-            return i
-    return -1
 
 def main():
     t = int(input())
