@@ -80,7 +80,8 @@ Running sum never reaches 10 → output is -1.
 ## Constraints  
 
 - 1 ≤ n ≤ 10000 
-- -10⁹ ≤ stars[i] ≤ 10⁹   
+- -10⁹ ≤ arr[i] ≤ 10⁹ 
+- -10⁹ ≤ target ≤ 10⁹    
 
 ## Time Limit
 
