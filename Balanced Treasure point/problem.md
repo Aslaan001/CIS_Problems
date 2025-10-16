@@ -37,9 +37,6 @@ If no such index exists, return `-1`.
 3
 
 #### Explanation
-
-
-#### Explanation
 Total sum = 28  
 At index 3:  
 Left sum = 1 + 7 + 3 = 11  
