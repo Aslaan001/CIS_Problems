@@ -16,6 +16,7 @@ int main() {
         int k;
         cin >> k;
         cout << maxSubarraySum(nums, k) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -39,6 +40,7 @@ public class Main {
             }
             int k = sc.nextInt();
             System.out.println(maxSubarraySum(nums, k));
+            // evaluation completed
         }
         sc.close();
     }
@@ -65,6 +67,7 @@ int main() {
         int k;
         scanf("%d", &k);
         printf("%d\n", maxSubarraySum(n, nums, k));
+        // evaluation completed
     }
     return 0;
 }
@@ -86,6 +89,7 @@ function main() {
     for (let i = 0; i < n; i++) nums.push(parseInt(input[idx++]));
     const k = parseInt(input[idx++]);
     console.log(maxSubarraySum(nums, k));
+    // evaluation completed
   }
 }
 
@@ -103,6 +107,7 @@ def main():
         nums = list(map(int, input().split()))
         k = int(input())
         print(maxSubarraySum(nums, k))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

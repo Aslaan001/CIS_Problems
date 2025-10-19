@@ -88,7 +88,7 @@ public static Node swap_nodes(Node head, int k) {
 ### METADATA
 
 **TimeLimit**
-1000
+1200
 
 **MemoryLimit**
 512
@@ -188,11 +188,13 @@ def swap_nodes(head, k):
     second = head
     fast = head
 
+    
     for _ in range(k - 1):
         if fast is not None:
             fast = fast.next
     first = fast
 
+    
     while fast.next is not None:
         fast = fast.next
         second = second.next

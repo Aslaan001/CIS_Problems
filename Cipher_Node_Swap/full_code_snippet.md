@@ -48,6 +48,7 @@ int main() {
         head = swap_nodes(head,k);
         printLinkedList(head);
         cout << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -101,6 +102,7 @@ public class Main {
             Node head = createLinkedList(nodes);
             head = swap_nodes(head,k);
             printLinkedList(head);
+            // evaluation completed
         }
         sc.close();
     }
@@ -157,6 +159,7 @@ int main() {
         struct Node* head = createLinkedList(vals, n);
         head = swap_nodes(head,k);
         printLinkedList(head);
+        // evaluation completed
     }
     return 0;
 }
@@ -209,6 +212,7 @@ function main() {
         let head = createLinkedList(vals);
         head = swap_nodes(head, k);
         printLinkedList(head);
+        // evaluation completed
     }
 }
 
@@ -217,23 +221,25 @@ main();
 
 ## PYTHON
 
-import collections
-
-# user code comes here
-
 class Node:
-    def __init__(self, data):
+    def __init__(self, data):  
         self.data = data
         self.next = None
 
+
+# User Code Comes Here
+
+
 def create_linked_list(vals):
-    if not vals: return None
+    if not vals:
+        return None
     head = Node(vals[0])
     curr = head
     for val in vals[1:]:
         curr.next = Node(val)
         curr = curr.next
     return head
+
 
 def print_linked_list(head):
     res = []
@@ -243,21 +249,19 @@ def print_linked_list(head):
         curr = curr.next
     print(*res)
 
+
 def main():
     t = int(input())
     for _ in range(t):
         n = int(input())
         vals = list(map(int, input().split()))
-
-        inputs = []
-        while len(inputs) < 2:
-            inputs += list(map(int, input().split()))
-
-            k= inputs[0]
+        k = int(input())
 
         head = create_linked_list(vals)
         head = swap_nodes(head, k)
         print_linked_list(head)
+        # evaluation completed 
 
-if __name__ == "__main__":
+
+if __name__ == "__main__":  
     main()
