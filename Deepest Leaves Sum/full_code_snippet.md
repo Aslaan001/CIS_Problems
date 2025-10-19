@@ -45,6 +45,7 @@ int main() {
         for (int i = 0; i < n; i++) cin >> arr[i];
         TreeNode* root = buildTree(arr);
         cout << deepestLeavesSum(root) << "\n";
+        // evaluation completed
     }
 }
 
@@ -95,6 +96,7 @@ public class Main {
             for (int i = 0; i < n; i++) arr[i] = sc.next();
             TreeNode root = buildTree(arr);
             System.out.println(deepestLeavesSum(root));
+            // evaluation completed
         }
     }
 }
@@ -154,6 +156,7 @@ int main() {
         for (int i = 0; i < n; i++) scanf("%s", arr[i]);
         struct TreeNode* root = buildTree(arr, n);
         printf("%d\n", deepestLeavesSum(root));
+        // evaluation completed
     }
 }
 
@@ -201,6 +204,7 @@ while (t--) {
   const arr = data.slice(idx, idx + n); idx += n;
   const root = buildTree(arr);
   console.log(deepestLeavesSum(root));
+  // evaluation completed
 }
 
 ---
@@ -242,3 +246,4 @@ for _ in range(t):
     arr = input().strip().split()
     root = buildTree(arr)
     print(deepestLeavesSum(root))
+    # evaluation completed

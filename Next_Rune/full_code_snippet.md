@@ -18,6 +18,7 @@ int main() {
         char target;
         cin >> target;
         cout << nextRune(letters, target) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -40,6 +41,7 @@ public class Main {
             }
             char target = sc.next().charAt(0);
             System.out.println(nextRune(letters, target));
+            // evaluation completed
         }
         sc.close();
     }
@@ -66,6 +68,7 @@ int main() {
         char target;
         scanf(" %c", &target);
         printf("%c\n", nextRune(n, letters, target));
+        // evaluation completed
     }
     return 0;
 }
@@ -87,6 +90,7 @@ function main() {
     idx += n;
     const target = input[idx++];
     console.log(nextRune(letters, target));
+    // evaluation completed
   }
 }
 
@@ -106,6 +110,7 @@ def main():
         letters = input().split()
         target = input().strip()
         print(nextRune(letters, target))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

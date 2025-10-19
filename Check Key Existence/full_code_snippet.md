@@ -21,6 +21,7 @@ int main() {
         int key;
         cin >> key;
         cout << (checkKeyExists(nums, key) ? "true" : "false") << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -45,6 +46,7 @@ public class Main {
             }
             int key = sc.nextInt();
             System.out.println(checkKeyExists(nums, key));
+            // evaluation completed
         }
         sc.close();
     }
@@ -73,6 +75,7 @@ int main() {
         int key;
         scanf("%d", &key);
         printf("%s\n", checkKeyExists(nums, n, key) ? "true" : "false");
+        // evaluation completed
     }
     return 0;
 }
@@ -95,6 +98,7 @@ function main() {
         for (let i = 0; i < n; i++) nums.push(Number(input[idx++]));
         const key = Number(input[idx++]);
         console.log(checkKeyExists(nums, key));
+        // evaluation completed
     }
 }
 
@@ -113,6 +117,7 @@ def main():
         nums = list(map(int, input().split()))
         key = int(input())
         print(checkKeyExists(nums, key))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

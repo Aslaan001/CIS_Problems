@@ -19,6 +19,7 @@ int main() {
         }
         cin >> m;
         cout << maxBooksDistribution(books, m) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -40,6 +41,7 @@ public class Main {
             for (int i = 0; i < n; i++) books[i] = sc.nextInt();
             int m = sc.nextInt();
             System.out.println(maxBooksDistribution(books, m));
+            // evaluation completed
         }
         sc.close();
     }
@@ -63,6 +65,7 @@ int main() {
         for (int i = 0; i < n; i++) scanf("%d", &books[i]);
         scanf("%d", &m);
         printf("%d\n", maxBooksDistribution(books, n, m));
+        // evaluation completed
     }
     return 0;
 }
@@ -84,6 +87,7 @@ function main() {
         for (let i = 0; i < n; i++) books.push(Number(input[idx++]));
         const m = parseInt(input[idx++]);
         console.log(maxBooksDistribution(books, m));
+        // evaluation completed
     }
 }
 
@@ -101,6 +105,7 @@ def main():
         books = list(map(int, input().split()))
         m = int(input())
         print(maxBooksDistribution(books, m))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

@@ -19,6 +19,7 @@ int main() {
             cin >> nums[i];
         }
         cout << findMEX(nums) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -41,6 +42,7 @@ public class Main {
                 nums[i] = sc.nextInt();
             }
             System.out.println(findMEX(nums));
+            // evaluation completed
         }
         sc.close();
     }
@@ -66,6 +68,7 @@ int main() {
             scanf("%d", &nums[i]);
         }
         printf("%d\n", findMEX(nums, n));
+        // evaluation completed
     }
     return 0;
 }
@@ -86,6 +89,7 @@ function main() {
         const nums = [];
         for (let i = 0; i < n; i++) nums.push(Number(input[idx++]));
         console.log(findMEX(nums));
+        // evaluation completed
     }
 }
 
@@ -102,6 +106,7 @@ def main():
         n = int(input())
         nums = list(map(int, input().split()))
         print(findMEX(nums))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

@@ -16,6 +16,7 @@ int main() {
         int k;
         cin >> k;
         cout << (duplicateDetector(nums, k) ? "true" : "false") << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -39,6 +40,7 @@ public class Main {
             }
             int k = sc.nextInt();
             System.out.println(duplicateDetector(nums, k) ? "true" : "false");
+            // evaluation completed
         }
         sc.close();
     }
@@ -66,6 +68,7 @@ int main() {
         int k;
         scanf("%d", &k);
         printf("%s\n", duplicateDetector(n, nums, k) ? "true" : "false");
+        // evaluation completed
     }
     return 0;
 }
@@ -87,6 +90,7 @@ function main() {
     for (let i = 0; i < n; i++) nums.push(parseInt(input[idx++]));
     const k = parseInt(input[idx++]);
     console.log(duplicateDetector(nums, k) ? "true" : "false");
+    // evaluation completed
   }
 }
 
@@ -106,6 +110,7 @@ def main():
         nums = list(map(int, input().split()))
         k = int(input())
         print("true" if duplicateDetector(nums, k) else "false")
+        #  evaluation completed
 
 if __name__ == "__main__":
     main()

@@ -14,6 +14,7 @@ int main() {
         string s;
         cin >> s;
         cout << goodSubstrings(s) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -33,6 +34,7 @@ public class Main {
             int n = sc.nextInt();
             String s = sc.next();
             System.out.println(goodSubstrings(s));
+            // evaluation completed
         }
         sc.close();
     }
@@ -55,6 +57,7 @@ int main() {
         char s[n + 1];
         scanf("%s", s);
         printf("%d\n", goodSubstrings(s));
+        // evaluation completed
     }
     return 0;
 }
@@ -74,6 +77,7 @@ function main() {
     const n = parseInt(input[idx++]);
     const s = input[idx++];
     console.log(goodSubstrings(s));
+    // evaluation completed
   }
 }
 
@@ -90,6 +94,7 @@ def main():
         n = int(input())
         s = input().strip()
         print(goodSubstrings(s))
+        #  evaluation completed
 
 if __name__ == "__main__":
     main()

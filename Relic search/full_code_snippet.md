@@ -18,6 +18,7 @@ int main() {
         int key;
         cin >> key;
         cout << relicSearch(relics, key) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -40,6 +41,7 @@ public class Main {
             }
             int key = sc.nextInt();
             System.out.println(relicSearch(relics, key));
+            // evaluation completed
         }
         sc.close();
     }
@@ -66,6 +68,7 @@ int main() {
         int key;
         scanf("%d", &key);
         printf("%d\n", relicSearch(relics, n, key));
+        // evaluation completed
     }
     return 0;
 }
@@ -87,6 +90,7 @@ function main() {
     idx += n;
     const key = parseInt(input[idx++]);
     console.log(relicSearch(relics, key));
+    // evaluation completed
   }
 }
 
@@ -104,6 +108,7 @@ def main():
         relics = list(map(int, input().split()))
         key = int(input())
         print(relicSearch(relics, key))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

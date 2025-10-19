@@ -14,6 +14,7 @@ int main() {
         long long x;
         cin >> x;
         cout << integerSquareRoot(x) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -32,6 +33,7 @@ public class Main {
         while (t-- > 0) {
             long x = sc.nextLong();
             System.out.println(integerSquareRoot(x));
+            // evaluation completed
         }
         sc.close();
     }
@@ -53,6 +55,7 @@ int main() {
         long long x;
         scanf("%lld", &x);
         printf("%lld\n", integerSquareRoot(x));
+        // evaluation completed
     }
     return 0;
 }
@@ -71,6 +74,7 @@ function main() {
     for (let tc = 0; tc < t; tc++) {
         const x = BigInt(input[idx++]);
         console.log(integerSquareRoot(x).toString());
+        // evaluation completed
     }
 }
 
@@ -86,6 +90,7 @@ def main():
     for _ in range(t):
         x = int(input())
         print(integerSquareRoot(x))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

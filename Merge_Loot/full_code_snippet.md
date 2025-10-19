@@ -23,6 +23,7 @@ int main() {
         vector<int> result = mergeLoot(nums1, nums2);
         for (int val : result) cout << val << " ";
         cout << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -51,6 +52,7 @@ public class Main {
             int[] result = mergeLoot(nums1, nums2);
             for (int val : result) System.out.print(val + " ");
             System.out.println();
+            // evaluation completed
         }
         sc.close();
     }
@@ -84,6 +86,7 @@ int main() {
         for (int i = 0; i < size; i++) printf("%d ", result[i]);
         printf("\n");
         free(result);
+        // evaluation completed
     }
     return 0;
 }
@@ -106,6 +109,7 @@ function main() {
         const nums2 = input.slice(idx, idx + m).map(Number);
         const result = mergeLoot(nums1, nums2);
         console.log(result.join(" "));
+        // evaluation completed
     }
 }
 
@@ -125,6 +129,7 @@ def main():
         nums2 = list(map(int, input().split()))
         result = mergeLoot(nums1, nums2)
         print(*result)
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

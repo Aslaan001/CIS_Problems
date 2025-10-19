@@ -18,6 +18,7 @@ int main() {
         int h;
         cin >> h;
         cout << minCollectionSpeed(cookies, h) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -40,6 +41,7 @@ public class Main {
             }
             int h = sc.nextInt();
             System.out.println(minCollectionSpeed(cookies, h));
+            // evaluation completed
         }
         sc.close();
     }
@@ -66,6 +68,7 @@ int main() {
         int h;
         scanf("%d", &h);
         printf("%d\n", minCollectionSpeed(cookies, n, h));
+        // evaluation completed
     }
     return 0;
 }
@@ -87,6 +90,7 @@ function main() {
     idx += n;
     const h = parseInt(input[idx++]);
     console.log(minCollectionSpeed(cookies, h));
+    // evaluation completed
   }
 }
 
@@ -104,6 +108,7 @@ def main():
         cookies = list(map(int, input().split()))
         h = int(input())
         print(minCollectionSpeed(cookies, h))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

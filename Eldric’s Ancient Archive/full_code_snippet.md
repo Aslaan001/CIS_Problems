@@ -34,6 +34,7 @@ int main() {
 
         int val = kthSmallest(root, key);
         cout << val << "\n";
+        // evaluation completed
     }
 }
 
@@ -75,6 +76,7 @@ public class Main {
 
             int val = kthSmallest(root, key);
             System.out.println(val);
+            // evaluation completed
         }
     }
 }
@@ -125,6 +127,7 @@ int main() {
         int key; scanf("%d",&key);
         int val = kthSmallest(root, key);
         printf("%d\n", val);
+        // evaluation completed
     }
 }
 
@@ -180,6 +183,7 @@ while (t--) {
 
     root = kthSmallest(root, key);
     console.log(root);
+    // evaluation completed
 }
 
 
@@ -233,3 +237,4 @@ for _ in range(t):
 
     root = kthSmallest(root, key)
     print(root)
+    # evaluation completed

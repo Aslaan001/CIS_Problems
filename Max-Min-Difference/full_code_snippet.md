@@ -18,6 +18,7 @@ int main() {
             cin >> stars[i];
         }
         cout << absMaxMinDiff(stars) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -39,6 +40,7 @@ public class Main {
                 stars[i] = sc.nextInt();
             }
             System.out.println(absMaxMinDiff(stars));
+            // evaluation completed
         }
         sc.close();
     }
@@ -63,6 +65,7 @@ int main() {
             scanf("%d", &stars[i]);
         }
         printf("%d\n", absMaxMinDiff(stars, n));
+        // evaluation completed
     }
     return 0;
 }
@@ -83,6 +86,7 @@ function main() {
     const stars = [];
     for (let i = 0; i < n; i++) stars.push(Number(input[idx++]));
     console.log(absMaxMinDiff(stars));
+    // evaluation completed
   }
 }
 
@@ -99,6 +103,7 @@ def main():
         n = int(input())
         stars = list(map(int, input().split()))
         print(absMaxMinDiff(stars))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()

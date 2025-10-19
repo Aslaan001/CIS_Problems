@@ -21,6 +21,7 @@ int main() {
         int target;
         cin >> target;
         cout << runningTreasureTarget(nums, target) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -45,6 +46,7 @@ public class Main {
             }
             int target = sc.nextInt();
             System.out.println(runningTreasureTarget(nums, target));
+            // evaluation completed
         }
         sc.close();
     }
@@ -72,6 +74,7 @@ int main() {
         long long target;
         scanf("%lld", &target);
         printf("%d\n", runningTreasureTarget(nums, n, target));
+        // evaluation completed
     }
     return 0;
 }
@@ -93,6 +96,7 @@ function main() {
     for (let i = 0; i < n; i++) nums.push(Number(input[idx++]));
     const target = Number(input[idx++]);
     console.log(runningTreasureTarget(nums, target));
+    // evaluation completed
   }
 }
 
@@ -110,6 +114,7 @@ def main():
         nums = list(map(int, input().split()))
         target = int(input())
         print(runningTreasureTarget(nums, target))
+        # evaluation completed
 
 if __name__ == "__main__":
     main()
