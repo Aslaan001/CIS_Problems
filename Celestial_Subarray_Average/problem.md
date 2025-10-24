@@ -62,7 +62,7 @@ Only one element exists, so the average is `5.00000`.
 
 
 - First line: integer `n` — the number of celestial numbers.  
-- Second line: `n` space-separated integers — representing the values in the sacred scroll `Nums`.  
+- Second line: `n` space-separated integers — representing the values in the sacred scroll `Brightness`.  
 - Third line: integer `k` — the length of the subarray to consider.
 
 ## Output Format  
@@ -75,7 +75,7 @@ Only one element exists, so the average is `5.00000`.
 
 - 1 ≤ n ≤ 1e4
 - 1 ≤ k ≤ n  
-- -10⁴ ≤ nums[i] ≤ 10⁴  
+- -10⁴ ≤ brightness[i] ≤ 10⁴  
 
 ## Time Limit
 

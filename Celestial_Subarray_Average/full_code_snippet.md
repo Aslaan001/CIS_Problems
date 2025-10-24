@@ -13,13 +13,13 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> nums(n);
+        vector<int> brightness(n);
         for (int i = 0; i < n; i++) {
-            cin >> nums[i];
+            cin >> brightness[i];
         }
         int k;
         cin >> k;
-        cout << fixed << setprecision(5) << ancientScroll(nums, k);
+        cout << fixed << setprecision(5) << celestialSubarrayAverage(brightness, k) << "\n";
         // evaluation completed
     }
     return 0;
@@ -37,12 +37,12 @@ public class Main {
         int t = sc.nextInt();
         while (t-- > 0) {
             int n = sc.nextInt();
-            int[] nums = new int[n];
+            int[] brightness = new int[n];
             for (int i = 0; i < n; i++) {
-                nums[i] = sc.nextInt();
+                brightness[i] = sc.nextInt();
             }
             int k = sc.nextInt();
-            System.out.printf("%.5f", ancientScroll(nums, k));
+            System.out.printf("%.5f\n", celestialSubarrayAverage(brightness, k));
             // evaluation completed
         }
         sc.close();
@@ -63,13 +63,13 @@ int main() {
     while (t--) {
         int n;
         scanf("%d", &n);
-        int nums[n];
+        int brightness[n];
         for (int i = 0; i < n; i++) {
-            scanf("%d", &nums[i]);
+            scanf("%d", &brightness[i]);
         }
         int k;
         scanf("%d", &k);
-        printf("%.5f", ancientScroll(n, nums, k));
+        printf("%.5f\n", celestialSubarrayAverage(n, brightness, k));
         // evaluation completed
     }
     return 0;
@@ -88,10 +88,10 @@ function main() {
   const t = parseInt(input[idx++]);
   for (let tc = 0; tc < t; tc++) {
     const n = parseInt(input[idx++]);
-    const nums = [];
-    for (let i = 0; i < n; i++) nums.push(Number(input[idx++]));
+    const brightness = [];
+    for (let i = 0; i < n; i++) brightness.push(Number(input[idx++]));
     const k = parseInt(input[idx++]);
-    console.log(ancientScroll(nums, k).toFixed(5));
+    console.log(celestialSubarrayAverage(brightness, k).toFixed(5));
     // evaluation completed
   }
 }
@@ -107,9 +107,9 @@ def main():
     t = int(input())
     for _ in range(t):
         n = int(input())
-        nums = list(map(int, input().split()))
+        brightness = list(map(int, input().split()))
         k = int(input())
-        print(f"{ancientScroll(nums, k):.5f}")
+        print(f"{celestialSubarrayAverage(brightness, k):.5f}")
         # evaluation completed
 
 if __name__ == "__main__":

@@ -1,29 +1,29 @@
 ## CPP
 
-double ancientScroll(vector<int>& nums, int k) {
+double celestialSubarrayAverage(vector<int>& brightness, int k) {
     // add your code here
 }
 
 ## JAVA
 
-public static double ancientScroll(int[] nums, int k) {
+public static double celestialSubarrayAverage(int[] brightness, int k) {
     // add your code here
 }
 
 ## C
 
-double ancientScroll(int n, int nums[], int k) {
+double celestialSubarrayAverage(int n, int brightness[], int k) {
     // add your code here
 }
 
 ## JAVASCRIPT
 
-function ancientScroll(nums, k) {
+function celestialSubarrayAverage(brightness, k) {
     // add your code here
 }
 
 ## PYTHON
 
-def ancientScroll(nums, k):
+def celestialSubarrayAverage(brightness, k):
     # add your code here
     pass

@@ -2,12 +2,12 @@
 
 ### SOLUTION
 
-double ancientScroll(vector<int>& nums, int k) {
+double celestialSubarrayAverage(vector<int>& brightness, int k) {
     double windowSum = 0;
-    for (int i = 0; i < k; i++) windowSum += nums[i];
+    for (int i = 0; i < k; i++) windowSum += brightness[i];
     double maxSum = windowSum;
-    for (int i = k; i < nums.size(); i++) {
-        windowSum += nums[i] - nums[i - k];
+    for (int i = k; i < brightness.size(); i++) {
+        windowSum += brightness[i] - brightness[i - k];
         maxSum = max(maxSum, windowSum);
     }
     return maxSum / k;
@@ -26,12 +26,12 @@ double ancientScroll(vector<int>& nums, int k) {
 
 ### SOLUTION
 
-public static double ancientScroll(int[] nums, int k) {
+public static double celestialSubarrayAverage(int[] brightness, int k) {
     double windowSum = 0;
-    for (int i = 0; i < k; i++) windowSum += nums[i];
+    for (int i = 0; i < k; i++) windowSum += brightness[i];
     double maxSum = windowSum;
-    for (int i = k; i < nums.length; i++) {
-        windowSum += nums[i] - nums[i - k];
+    for (int i = k; i < brightness.length; i++) {
+        windowSum += brightness[i] - brightness[i - k];
         maxSum = Math.max(maxSum, windowSum);
     }
     return maxSum / k;
@@ -50,12 +50,12 @@ public static double ancientScroll(int[] nums, int k) {
 
 ### SOLUTION
 
-double ancientScroll(int n, int nums[], int k) {
+double celestialSubarrayAverage(int n, int brightness[], int k) {
     double windowSum = 0;
-    for (int i = 0; i < k; i++) windowSum += nums[i];
+    for (int i = 0; i < k; i++) windowSum += brightness[i];
     double maxSum = windowSum;
     for (int i = k; i < n; i++) {
-        windowSum += nums[i] - nums[i - k];
+        windowSum += brightness[i] - brightness[i - k];
         if (windowSum > maxSum) maxSum = windowSum;
     }
     return maxSum / k;
@@ -74,12 +74,12 @@ double ancientScroll(int n, int nums[], int k) {
 
 ### SOLUTION
 
-function ancientScroll(nums, k) {
+function celestialSubarrayAverage(brightness, k) {
   let windowSum = 0;
-  for (let i = 0; i < k; i++) windowSum += nums[i];
+  for (let i = 0; i < k; i++) windowSum += brightness[i];
   let maxSum = windowSum;
-  for (let i = k; i < nums.length; i++) {
-    windowSum += nums[i] - nums[i - k];
+  for (let i = k; i < brightness.length; i++) {
+    windowSum += brightness[i] - brightness[i - k];
     maxSum = Math.max(maxSum, windowSum);
   }
   return maxSum / k;
@@ -98,11 +98,11 @@ function ancientScroll(nums, k) {
 
 ### SOLUTION
 
-def ancientScroll(nums, k):
-    window_sum = sum(nums[:k])
+def celestialSubarrayAverage(brightness, k):
+    window_sum = sum(brightness[:k])
     max_sum = window_sum
-    for i in range(k, len(nums)):
-        window_sum += nums[i] - nums[i - k]
+    for i in range(k, len(brightness)):
+        window_sum += brightness[i] - brightness[i - k]
         max_sum = max(max_sum, window_sum)
     return max_sum / k
 
