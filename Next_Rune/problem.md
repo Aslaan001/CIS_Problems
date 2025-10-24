@@ -13,10 +13,12 @@ Easy
 
 ## Description
 
-In the land of `Runeria`, each `rune` holds a unique power symbol.  
+In the land  each `rune` holds a unique power symbol.  
 
 You are given a sorted list of runes (characters) and a target rune.  
 Your task is to find the `smallest rune that is lexicographically greater` than the target.  
+
+Each rune is represented by the char.
 
 If no such rune exists, return the `first rune` in the list.
 
