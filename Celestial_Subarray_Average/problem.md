@@ -13,12 +13,11 @@ Easy
 ## Description
 
 
-In the Sky of `Arexona`, numbers in the `Nums` represent the brightness of stars.  
-Your task, as the `Celestial Mathematician`, is to find the `subarray of length k` that has the `highest average brightness``.
+In the night sky, every star shines with its own unique brightness. These brightness levels are recorded in an array, representing how bright each star appears.
 
-Return this `maximum average value`, accurate up to `10⁻⁵`.
+You have been appointed as the Celestial Mathematician, and your task is to identify a group of exactly k consecutive stars whose combined glow appears the brightest on average.
 
-If there are multiple subarrays with the same average, returning any one of them is perfectly fine.
+Return this maximum average brightness, accurate up to 10⁻⁵.
 
 
 
