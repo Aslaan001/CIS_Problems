@@ -13,11 +13,9 @@ Easy
 
 ## Description
 
-In the vast lands of `CipherLand`, relics with mysterious power values are arranged along a long trail in `non-decreasing order`, just like a sorted array called `relics[]`.  
+In the vast lands of `CipherLand`, relics with mysterious power values are arranged along a long trail in `non-decreasing order`, in the form of an array called relics.  
 
 You, the `Time Seeker`, are looking for a relic with a specific power value `k`.  
-
-You must use a `smart and efficient method` to find your target.  
 
 If the relic exists, return its `index`.  
 If it doesn’t, return `-1`.  
