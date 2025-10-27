@@ -19,7 +19,6 @@ string isArraySorted(vector<int>& arr) {
 **MemoryLimit**
 512
 
----
 
 ## JAVA
 
@@ -41,7 +40,6 @@ public static String isArraySorted(int[] arr) {
 **MemoryLimit**
 512
 
----
 
 ## C
 
@@ -66,7 +64,6 @@ const bool isArraySorted(int arr[], int n) {
 **MemoryLimit**
 512
 
----
 
 ## JAVASCRIPT
 
@@ -87,7 +84,6 @@ function isArraySorted(arr) {
 **MemoryLimit**
 512
 
----
 
 ## PYTHON
 

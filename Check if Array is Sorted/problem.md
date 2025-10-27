@@ -13,7 +13,7 @@ Easy
 ## Description
 
 You are given an array `arr[]` of `n` integers.  
-Your task is to check whether the array is **sorted in non-decreasing order**.
+Your task is to check whether the array is `sorted in non-decreasing order`.
 
 If the array is sorted, return `YES`.  
 Otherwise, return `NO`.
@@ -56,7 +56,7 @@ The array is in decreasing order, so it is `not sorted`.
 ## Output Format
 
 - Return `"YES"` if the array is sorted in non-decreasing order.  
-- Otherwise, print `"NO"`.
+- Otherwise, Return `"NO"`.
 
 
 

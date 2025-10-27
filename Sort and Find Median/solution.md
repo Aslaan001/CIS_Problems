@@ -19,7 +19,6 @@ double Median(vector<int>& arr) {
 **MemoryLimit**
 512
 
----
 
 ## JAVA
 
@@ -42,7 +41,6 @@ public static double Median(int[] arr) {
 **MemoryLimit**
 512
 
----
 
 ## C
 
@@ -71,7 +69,6 @@ double Median(int arr[], int n) {
 **MemoryLimit**
 512
 
----
 
 ## JAVASCRIPT
 
@@ -92,7 +89,6 @@ function Median(arr) {
 **MemoryLimit**
 512
 
----
 
 ## PYTHON
 
