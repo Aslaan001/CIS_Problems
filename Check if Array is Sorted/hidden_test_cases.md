@@ -8,7 +8,7 @@
 ```
 **Expected Output**
 ```
-5.0
+NO
 ```
 ---
 ### Test Case 2
@@ -19,7 +19,7 @@
 ```
 **Expected Output**
 ```
-11.0
+NO
 ```
 
 ---
@@ -32,7 +32,7 @@
 ```
 **Expected Output**
 ```
-23.0
+NO
 ```
 
 ---
@@ -45,7 +45,7 @@
 ```
 **Expected Output**
 ```
-5.0
+YES
 ```
 
 
@@ -59,7 +59,7 @@
 ```
 **Expected Output**
 ```
-3.5
+YES
 ```
 
 ---
@@ -72,7 +72,7 @@
 ```
 **Expected Output**
 ```
-30.0
+NO
 ```
 
 ---
@@ -85,7 +85,7 @@
 ```
 **Expected Output**
 ```
-3.5
+NO
 ```
 
 ---
@@ -98,7 +98,7 @@
 ```
 **Expected Output**
 ```
-76.0
+NO
 ```
 ---
 
@@ -110,7 +110,7 @@
 ```
 **Expected Output**
 ```
-51.0
+NO
 ```
 
 ---
@@ -123,7 +123,7 @@
 ```
 **Expected Output**
 ```
-51.0
+NO
 ```
 ---
 
