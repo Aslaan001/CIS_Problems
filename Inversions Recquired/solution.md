@@ -24,7 +24,6 @@ long long minimumAdjacentSwaps(vector<int>& arr) {
 **MemoryLimit**
 512
 
----
 
 ## JAVA
 
@@ -54,7 +53,7 @@ public static long minimumAdjacentSwaps(int[] arr) {
 **MemoryLimit**
 512
 
----
+
 
 ## C
 
@@ -83,7 +82,6 @@ long long minimumAdjacentSwaps(int arr[], int n) {
 **MemoryLimit**
 512
 
----
 
 ## JAVASCRIPT
 
@@ -111,7 +109,6 @@ function minimumAdjacentSwaps(arr) {
 **MemoryLimit**
 512
 
----
 
 ## PYTHON
 
