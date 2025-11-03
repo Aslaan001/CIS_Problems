@@ -47,16 +47,16 @@ The key `4` should be inserted at index `2` to keep the array sorted: `[1, 3, 4,
 
 #### Input
 
-4 1
+4 10
 2 4 6 8 
 
 #### Output
 
-0
+3
 
 #### Explanation
 
-The key `1` should be inserted at index `0`: `[1, 2, 4, 6, 8]`.  
+The key `10` should be inserted at index `3`: `[2, 4, 6, 8, 10]`.  
 
 
 
