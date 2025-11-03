@@ -15,7 +15,8 @@ Easy
 ## Description
 
 
-You have a trail of treasure spots represented as a sequence of numbers.  
+You have a trail of treasure spots represented as a sequence of numbers in the form of an array
+
 Each number tells you how much treasure (positive) or trap (negative) you collect at that step.  
 
 You are given a `target` value, which represents the amount of treasure you aim to collect.  
@@ -41,8 +42,16 @@ If your total never reaches the target, return `-1`.
 #### Explanation
 
 
--Running sums: [1, 3, 6, 10, 15]  
-The first index where running sum ≥ 8 is index `3` (sum = 10).  
+#### Explanation  
+- Running sums step by step: `[1, 3, 6, 10, 15]`  
+- At index `0`: sum = 1 (still less than 8)  
+- At index `1`: sum = 3  
+- At index `2`: sum = 6  
+- At index `3`: sum = 10 (first time ≥ 8)  
+
+Hence, the first index where running sum ≥ target is `3`.  
+Even though the final total is much higher (15),  
+we only care about the first point where we reach or cross the target.  
 
 
 ### 2
