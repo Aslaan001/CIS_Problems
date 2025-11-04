@@ -1,10 +1,10 @@
 ## Title
 
-Array Pair Sum Divisibility Problem
+Array Pair Sum Divisibility
 
 ## Slug
 
-array-pair-sum-divisibility-problem
+array-pair-sum-divisibility
 
 ## Difficulty
 
@@ -15,8 +15,10 @@ Medium
 You are given an array `arr[]` of size `n` and an integer `k`.  
 Your task is to determine whether the array can be divided into pairs such that the `sum of every pair is divisible by 'k'`.
 
-If it is possible, return `"YES"`.  
-Otherwise, return `"NO"`.
+If it is possible, return `"true"`.
+Otherwise, return `"false"`.
+
+- Note:- Return type is bool
 
 
 
@@ -56,8 +58,8 @@ YES
 
 ## Output Format
 
-- Return `"YES"` if array elements can be paired such that sum of every pair is divisible by `k`.  
-- Otherwise, Return `"NO"`.
+- Return `"true"` if array elements can be paired such that sum of every pair is divisible by `k`.  
+- Otherwise, Return `"false"`.
 
 
 
