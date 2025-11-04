@@ -52,6 +52,7 @@ public class Main {
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 // user code comes here
 
@@ -98,9 +99,6 @@ main();
 
 # user code comes here
 
-def twinRisingSubarrays(nums):
-    # add your code here
-    pass
 
 def main():
     t = int(input())

@@ -30,7 +30,6 @@ int twinRisingSubarrays(vector<int>& nums) {
 **MemoryLimit**  
 512  
 
----
 
 ## JAVA
 
@@ -64,14 +63,13 @@ public static int twinRisingSubarrays(int[] nums) {
 **MemoryLimit**  
 512  
 
----
+
 
 ## C
 
 ### SOLUTION
 
-#include <stdlib.h>
-#include <stdbool.h>
+
 
 bool fun(int nums[], int n, int k) {
     int* v1 = (int*)calloc(n, sizeof(int));
@@ -101,7 +99,7 @@ int twinRisingSubarrays(int nums[], int n) {
 **MemoryLimit**  
 512  
 
----
+
 
 ## JAVASCRIPT
 
@@ -135,7 +133,7 @@ function twinRisingSubarrays(nums) {
 **MemoryLimit**  
 512  
 
----
+
 
 ## PYTHON
 
