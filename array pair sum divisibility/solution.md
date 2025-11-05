@@ -2,9 +2,9 @@
 
 ### SOLUTION
 
-string arrayPairSumDivisible(vector<int>& arr, int k) {
+bool arrayPairSumDivisible(vector<int>& arr, int k) {
     int n = arr.size();
-    if (n % 2 != 0) return "NO";
+    if (n % 2 != 0) return false;
 
     unordered_map<int, int> freq;
     for (int x : arr) {
@@ -14,15 +14,15 @@ string arrayPairSumDivisible(vector<int>& arr, int k) {
 
     for (auto& [r, count] : freq) {
         if (r == 0) {
-            if (count % 2 != 0) return "NO";
+            if (count % 2 != 0) return false;
         } else if (2 * r == k) {
-            if (count % 2 != 0) return "NO";
+            if (count % 2 != 0) return false;
         } else {
-            if (freq[r] != freq[k - r]) return "NO";
+            if (freq[r] != freq[k - r]) return false;
         }
     }
 
-    return "YES";
+    return true;
 }
 
 ### METADATA
@@ -38,9 +38,9 @@ string arrayPairSumDivisible(vector<int>& arr, int k) {
 
 ### SOLUTION
 
-public static String arrayPairSumDivisible(int[] arr, int k) {
+public static boolean arrayPairSumDivisible(int[] arr, int k) {
     int n = arr.length;
-    if (n % 2 != 0) return "NO";
+    if (n % 2 != 0) return false;
 
     HashMap<Integer, Integer> freq = new HashMap<>();
     for (int x : arr) {
@@ -50,15 +50,15 @@ public static String arrayPairSumDivisible(int[] arr, int k) {
 
     for (int r : freq.keySet()) {
         if (r == 0) {
-            if (freq.get(r) % 2 != 0) return "NO";
+            if (freq.get(r) % 2 != 0) return false;
         } else if (2 * r == k) {
-            if (freq.get(r) % 2 != 0) return "NO";
+            if (freq.get(r) % 2 != 0) return false;
         } else {
-            if (!freq.get(r).equals(freq.getOrDefault(k - r, 0))) return "NO";
+            if (!freq.get(r).equals(freq.getOrDefault(k - r, 0))) return false;
         }
     }
 
-    return "YES";
+    return true;
 }
 
 ### METADATA
@@ -74,11 +74,9 @@ public static String arrayPairSumDivisible(int[] arr, int k) {
 
 ### SOLUTION
 
-#include <stdbool.h>
-#include <stdlib.h>
 
-const bool arrayPairSumDivisible(int arr[], int n, int k) {
-    if (n % 2 != 0) return 0;
+bool arrayPairSumDivisible(int arr[], int n, int k) {
+    if (n % 2 != 0) return false;
 
     int* freq = (int*)calloc(k, sizeof(int));
     for (int i = 0; i < n; i++) {
@@ -90,23 +88,23 @@ const bool arrayPairSumDivisible(int arr[], int n, int k) {
         if (r == 0) {
             if (freq[r] % 2 != 0) {
                 free(freq);
-                return 0;
+                return false;
             }
         } else if (2 * r == k) {
             if (freq[r] % 2 != 0) {
                 free(freq);
-                return 0;
+                return false;
             }
         } else {
             if (freq[r] != freq[k - r]) {
                 free(freq);
-                return 0;
+                return false;
             }
         }
     }
 
     free(freq);
-    return 1;
+    return true;
 }
 
 ### METADATA
@@ -123,7 +121,7 @@ const bool arrayPairSumDivisible(int arr[], int n, int k) {
 ### SOLUTION
 
 function arrayPairSumDivisible(arr, k) {
-    if (arr.length % 2 !== 0) return "NO";
+    if (arr.length % 2 !== 0) return false;
 
     const freq = new Map();
     for (const x of arr) {
@@ -133,15 +131,15 @@ function arrayPairSumDivisible(arr, k) {
 
     for (const [r, count] of freq.entries()) {
         if (r === 0) {
-            if (count % 2 !== 0) return "NO";
+            if (count % 2 !== 0) return false;
         } else if (2 * r === k) {
-            if (count % 2 !== 0) return "NO";
+            if (count % 2 !== 0) return false;
         } else {
-            if (count !== (freq.get(k - r) || 0)) return "NO";
+            if (count !== (freq.get(k - r) || 0)) return false;
         }
     }
 
-    return "YES";
+    return true;
 }
 
 ### METADATA
@@ -159,7 +157,7 @@ function arrayPairSumDivisible(arr, k) {
 
 def arrayPairSumDivisible(arr, k):
     if len(arr) % 2 != 0:
-        return "NO"
+        return False
 
     freq = {}
     for x in arr:
@@ -169,15 +167,15 @@ def arrayPairSumDivisible(arr, k):
     for r, count in freq.items():
         if r == 0:
             if count % 2 != 0:
-                return "NO"
+                return False
         elif 2 * r == k:
             if count % 2 != 0:
-                return "NO"
+                return False
         else:
             if freq.get(k - r, 0) != count:
-                return "NO"
+                return False
 
-    return "YES"
+    return True
 
 ### METADATA
 

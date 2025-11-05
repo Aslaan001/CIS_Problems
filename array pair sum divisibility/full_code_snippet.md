@@ -1,5 +1,4 @@
 ## CPP
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -17,20 +16,16 @@ int main() {
         }
         int k;
         cin >> k;
-        cout << arrayPairSumDivisible(arr, k) << "\n";
-        // evaluation completed
+        cout << (arrayPairSumDivisible(arr, k) ? "YES" : "NO") << "\n"; // evaluation completed
     }
     return 0;
 }
 
-
 ## JAVA
-
 import java.util.*;
 
 public class Main {
     // user code comes here
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -41,19 +36,16 @@ public class Main {
                 arr[i] = sc.nextInt();
             }
             int k = sc.nextInt();
-            System.out.println(arrayPairSumDivisible(arr, k));
-            // evaluation completed
+            System.out.println(arrayPairSumDivisible(arr, k) ? "YES" : "NO"); // evaluation completed
         }
         sc.close();
     }
 }
 
-
 ## C
-
 #include <stdio.h>
-#include <stdlib.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 // user code comes here
 
@@ -69,48 +61,37 @@ int main() {
         }
         int k;
         scanf("%d", &k);
-        printf("%s\n", arrayPairSumDivisible(arr, n, k) ? "YES" : "NO");
-        // evaluation completed
+        printf("%s\n", arrayPairSumDivisible(arr, n, k) ? "YES" : "NO"); // evaluation completed
     }
     return 0;
 }
 
-
 ## JAVASCRIPT
-
 // user code comes here
-
 function main() {
-  const fs = require("fs");
-  const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
-  let idx = 0;
-  const t = parseInt(input[idx++]);
-
-  for (let _ = 0; _ < t; _++) {
-    const n = parseInt(input[idx++]);
-    const arr = input.slice(idx, idx + n).map(Number);
-    idx += n;
-    const k = parseInt(input[idx++]);
-    console.log(arrayPairSumDivisible(arr, k));
-    // evaluation completed
-  }
+    const fs = require("fs");
+    const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+    let idx = 0;
+    const t = parseInt(input[idx++]);
+    for (let _ = 0; _ < t; _++) {
+        const n = parseInt(input[idx++]);
+        const arr = input.slice(idx, idx + n).map(Number);
+        idx += n;
+        const k = parseInt(input[idx++]);
+        console.log(arrayPairSumDivisible(arr, k) ? "YES" : "NO"); // evaluation completed
+    }
 }
-
 main();
 
-
 ## PYTHON
-
 # user code comes here
-
 def main():
     t = int(input())
     for _ in range(t):
         n = int(input())
         arr = list(map(int, input().split()))
         k = int(input())
-        print(arrayPairSumDivisible(arr, k))
-        # evaluation completed
+        print("YES" if arrayPairSumDivisible(arr, k) else "NO")  # evaluation completed
 
 if __name__ == "__main__":
     main()
