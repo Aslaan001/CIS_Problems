@@ -2,9 +2,6 @@
 
 ### SOLUTION
 
-#include <bits/stdc++.h>
-using namespace std;
-
 long long countBalancedSubarrays(vector<int>& nums) {
     vector<long long> pre;
     long long s = 0;
@@ -39,7 +36,6 @@ MemoryLimit
 
 ### SOLUTION
 
-import java.util.*;
 
 public static long countBalancedSubarrays(int[] nums) {
     long[] pre = new long[nums.length];
@@ -76,10 +72,6 @@ MemoryLimit
 ## C
 
 ### SOLUTION
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 typedef struct Node {
     long long key1;
@@ -180,8 +172,6 @@ MemoryLimit
 ## PYTHON
 
 ### SOLUTION
-
-from collections import defaultdict
 
 def count_balanced_subarrays(nums):
     pre = []

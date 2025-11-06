@@ -1,11 +1,8 @@
 ## CPP
 
-#include <vector>
-using namespace std;
-
 long long countBalancedSubarrays(vector<int>& nums) {
     // add your code here
-    return 0;
+    
 }
 
 
@@ -13,7 +10,7 @@ long long countBalancedSubarrays(vector<int>& nums) {
 
 public static long countBalancedSubarrays(int[] nums) {
     // add your code here
-    return 0;
+   
 }
 
 
@@ -21,7 +18,7 @@ public static long countBalancedSubarrays(int[] nums) {
 
 long long countBalancedSubarrays(int* nums, int n) {
     // add your code here
-    return 0;
+    
 }
 
 
@@ -29,7 +26,7 @@ long long countBalancedSubarrays(int* nums, int n) {
 
 function countBalancedSubarrays(nums) {
     // add your code here
-    return 0;
+   
 }
 
 
@@ -37,4 +34,3 @@ function countBalancedSubarrays(nums) {
 
 def count_balanced_subarrays(nums):
     # add your code here
-    return 0
