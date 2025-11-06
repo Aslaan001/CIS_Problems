@@ -189,7 +189,6 @@ MemoryLimit
 
 ### SOLUTION
 
-from collections import defaultdict
 
 def count_distinct_divisible_subarrays(v, k):
     mp = defaultdict(int)

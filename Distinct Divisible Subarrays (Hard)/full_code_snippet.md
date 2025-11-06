@@ -107,6 +107,8 @@ main();
 
 ## PYTHON
 
+
+from collections import defaultdict
 # user code comes here
 
 def main():
