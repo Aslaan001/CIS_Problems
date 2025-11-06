@@ -136,30 +136,30 @@ MemoryLimit
 ## JAVASCRIPT
 
 function countBalancedSubarrays(nums) {
-  const pre = [];
+  const pre = new Array(nums.length);
   let s = 0n;
   const m1 = new Map();
   let ans = 0n;
   for (let i = 0; i < nums.length; i++) {
     s += BigInt(nums[i]);
-    pre.push(s);
+    pre[i] = s;
   }
   for (let i = 2; i < nums.length; i++) {
     const kk = BigInt(nums[i]);
     const ll = pre[i - 1];
     const r = ll - kk;
-    const key1 = pre[i - 2];
-    const val1 = BigInt(nums[i - 2]);
-    const val2 = BigInt(nums[i]);
-    if (!m1.has(key1)) m1.set(key1, new Map());
-    const inner = m1.get(key1);
-    inner.set(val1, (inner.get(val1) || 0n) + 1n);
-    if (m1.has(r) && m1.get(r).has(val2)) {
-      ans += m1.get(r).get(val2);
+    if (!m1.has(pre[i - 2])) m1.set(pre[i - 2], new Map());
+    const inner = m1.get(pre[i - 2]);
+    const key2 = BigInt(nums[i - 2]);
+    inner.set(key2, (inner.get(key2) || 0n) + 1n);
+    const valKey = BigInt(nums[i]);
+    if (m1.has(r) && m1.get(r).has(valKey)) {
+      ans += m1.get(r).get(valKey);
     }
   }
   return ans <= Number.MAX_SAFE_INTEGER ? Number(ans) : ans.toString();
 }
+
 
 
 ### METADATA
