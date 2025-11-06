@@ -11,17 +11,18 @@ int main() {
     while (t--) {
         int n, k;
         cin >> n;
-        vector<int> nums(n);
+        vector<int> v(n);
         for (int i = 0; i < n; i++) {
-            cin >> nums[i];
+            cin >> v[i];
         }
         cin >> k;
 
-        cout << countDistinctDivisibleSubarrays(nums, k) << "\n";
+        cout << countDistinctDivisibleSubarrays(v, k) << "\n";
         // evaluation completed
     }
     return 0;
 }
+
 
 
 ## JAVA
@@ -36,18 +37,19 @@ public class Main {
         int t = sc.nextInt();
         while (t-- > 0) {
             int n = sc.nextInt();
-            int[] nums = new int[n];
+            int[] v = new int[n];
             for (int i = 0; i < n; i++) {
-                nums[i] = sc.nextInt();
+                v[i] = sc.nextInt();
             }
             int k = sc.nextInt();
 
-            System.out.println(countDistinctDivisibleSubarrays(nums, k));
+            System.out.println(countDistinctDivisibleSubarrays(v, k));
             // evaluation completed
         }
         sc.close();
     }
 }
+
 
 
 ## C
@@ -62,18 +64,21 @@ int main() {
     while (t--) {
         int n, k;
         scanf("%d", &n);
-        int nums[n];
+        int v[n];
         for (int i = 0; i < n; i++) {
-            scanf("%d", &nums[i]);
+            scanf("%d", &v[i]);
         }
         scanf("%d", &k);
 
-        printf("%lld\n", countDistinctDivisibleSubarrays(nums, n, k));
+        printf("%lld\n", countDistinctDivisibleSubarrays(v, n, k));
         // evaluation completed
     }
     return 0;
 }
 
+
+
+## JAVASCRIPT
 
 ## JAVASCRIPT
 
@@ -87,16 +92,17 @@ function main() {
     const t = parseInt(input[idx++]);
     for (let tc = 0; tc < t; tc++) {
         const n = parseInt(input[idx++]);
-        const nums = [];
-        for (let i = 0; i < n; i++) nums.push(Number(input[idx++]));
+        const v = [];
+        for (let i = 0; i < n; i++) v.push(Number(input[idx++]));
         const k = parseInt(input[idx++]);
 
-        console.log(countDistinctDivisibleSubarrays(nums, k));
+        console.log(countDistinctDivisibleSubarrays(v, k));
         // evaluation completed
     }
 }
 
 main();
+
 
 
 ## PYTHON
@@ -107,10 +113,11 @@ def main():
     t = int(input())
     for _ in range(t):
         n = int(input())
-        nums = list(map(int, input().split()))
+        v = list(map(int, input().split()))
         k = int(input())
-        print(count_distinct_divisible_subarrays(nums, k))
+        print(count_distinct_divisible_subarrays(v, k))
         # evaluation completed
 
 if __name__ == "__main__":
     main()
+

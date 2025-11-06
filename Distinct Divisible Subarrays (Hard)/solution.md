@@ -2,9 +2,6 @@
 
 ### SOLUTION
 
-#include <bits/stdc++.h>
-using namespace std;
-
 long long countDistinctDivisibleSubarrays(vector<int>& v, int k) {
     map<long long, long long> mp;
     int n = v.size();
@@ -84,9 +81,6 @@ MemoryLimit
 
 ### SOLUTION
 
-#include <stdio.h>
-#include <stdlib.h>
-
 typedef struct Pair {
     long long key;
     long long val;
@@ -153,29 +147,34 @@ MemoryLimit
 ### SOLUTION
 
 function countDistinctDivisibleSubarrays(v, k) {
+  const K = BigInt(k);
   const mp = new Map();
   mp.set(0n, 1n);
   let sum = 0n, cnt = 0n;
   const n = v.length;
   let i = 0;
+
   while (i < n) {
     let j = i;
     let sum2 = sum;
     while (j < n && v[j] === v[i]) {
-      sum2 = (sum2 + BigInt(v[j])) % BigInt(k);
-      const mod = sum2 % BigInt(k);
+      sum2 = (sum2 + BigInt(v[j])) % K;
+      if (sum2 < 0n) sum2 += K;
+      const mod = sum2;
       cnt += mp.get(mod) || 0n;
       j++;
     }
     j = i;
     while (i < n && v[j] === v[i]) {
-      sum = (sum + BigInt(v[j])) % BigInt(k);
+      sum = (sum + BigInt(v[j])) % K;
+      if (sum < 0n) sum += K;
       mp.set(sum, (mp.get(sum) || 0n) + 1n);
       i++;
     }
   }
-  return cnt;
+  return cnt <= Number.MAX_SAFE_INTEGER ? Number(cnt) : cnt.toString();
 }
+
 
 ### METADATA
 
