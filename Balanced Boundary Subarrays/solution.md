@@ -135,8 +135,6 @@ MemoryLimit
 
 ## JAVASCRIPT
 
-### SOLUTION
-
 function countBalancedSubarrays(nums) {
   const pre = [];
   let s = 0n;
@@ -150,15 +148,19 @@ function countBalancedSubarrays(nums) {
     const kk = BigInt(nums[i]);
     const ll = pre[i - 1];
     const r = ll - kk;
-    if (!m1.has(pre[i - 2])) m1.set(pre[i - 2], new Map());
-    const inner = m1.get(pre[i - 2]);
-    inner.set(BigInt(nums[i - 2]), (inner.get(BigInt(nums[i - 2])) || 0n) + 1n);
-    if (m1.has(r) && m1.get(r).has(BigInt(nums[i]))) {
-      ans += m1.get(r).get(BigInt(nums[i]));
+    const key1 = pre[i - 2];
+    const val1 = BigInt(nums[i - 2]);
+    const val2 = BigInt(nums[i]);
+    if (!m1.has(key1)) m1.set(key1, new Map());
+    const inner = m1.get(key1);
+    inner.set(val1, (inner.get(val1) || 0n) + 1n);
+    if (m1.has(r) && m1.get(r).has(val2)) {
+      ans += m1.get(r).get(val2);
     }
   }
-  return ans;
+  return ans <= Number.MAX_SAFE_INTEGER ? Number(ans) : ans.toString();
 }
+
 
 ### METADATA
 
