@@ -83,4 +83,4 @@ Return a single integer — the length of the longest valid progression subseque
 
 ## Tags  
 
-dynamic programming, subsequence.
+array, dynamic-programming
