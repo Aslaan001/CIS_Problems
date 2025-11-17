@@ -78,4 +78,4 @@ Print a single integer — the maximum alternating power score possible after re
 
 ## Tags  
 
-arrays, sorting.
+arrays, sorting
