@@ -20,9 +20,9 @@ Otherwise, return `"false"`.
 
 - Note:- Return type is bool
 
+### Examples
 
-
-### Example 1
+### 1
 
 #### Input
 4  
@@ -37,7 +37,7 @@ The array can be divided into pairs `(9, 3)` and `(7, 5)` where both pairs have 
 
 
 
-### Example 2
+### 2
 
 #### Input
 4  
@@ -80,8 +80,6 @@ YES
 
 512 MB
 
-
-
 ## Tags
 
-arrays, sorting.
+array, sorting.
