@@ -62,4 +62,4 @@ This example shows how a removal can create a new pair of adjacent identical cha
 256 MB
 
 ## Tags 
-strings, stack, greedy
+string, stack, greedy
