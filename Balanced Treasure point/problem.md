@@ -70,9 +70,6 @@ Right sum = 28 - 11 - 6 = 11
 - A single integer — the smallest index where left sum equals right sum, or `-1` if no such index exists.
   
 
-
-
-
 ## Constraints  
 
 - 1 ≤ n ≤ 10⁴  
@@ -88,4 +85,4 @@ Right sum = 28 - 11 - 6 = 11
 
 ## Tags
 
-arrays . 
+array
