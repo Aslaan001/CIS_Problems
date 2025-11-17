@@ -82,4 +82,4 @@ Return a single integer — the maximum sum of a subarray whose length is divisi
 
 ## Tags  
 
-arrays, prefix-sum, dynamic-programming, modulo  
+array, dynamic-programming, prefix-sum 
