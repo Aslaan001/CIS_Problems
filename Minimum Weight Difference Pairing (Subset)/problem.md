@@ -66,4 +66,4 @@ Return a single integer — the minimum achievable remaining weight.
 
 ## Tags  
 
-dynamic programming.
+dynamic-programming
