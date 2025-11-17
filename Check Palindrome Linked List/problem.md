@@ -67,4 +67,4 @@ Return `true` if the linked list is a palindrome, otherwise `false`.
 
 
 ## Tags  
-linked-list.  
+linked-list  
