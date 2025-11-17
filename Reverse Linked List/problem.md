@@ -70,4 +70,4 @@ Return the new head of the reversed linked list, printed from head to tail.
 
 
 ## Tags  
-linked-list, reverse, basic
+linked-list
