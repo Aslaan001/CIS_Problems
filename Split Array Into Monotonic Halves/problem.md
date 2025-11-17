@@ -105,4 +105,4 @@ Return a single integer, the minimum absolute difference or -1 if no valid split
 
 ## Tags  
 
-arrays.
+array
