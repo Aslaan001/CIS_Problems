@@ -78,4 +78,4 @@ Return a single integer: the length of the longest balanced progression subseque
 
 ## Tags  
 
-dynamic programming.
+array, dynamic-programming
