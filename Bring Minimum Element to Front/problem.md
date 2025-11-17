@@ -83,4 +83,4 @@ The smallest element `1` is at index 2 (0-based), so it is swapped with the firs
 
 ## Tags
 
-arrays, swapping . 
+array 
