@@ -77,4 +77,4 @@ Return a single integer — the maximum length of a smooth subarray achievable w
 
 ## Tags  
 
-arrays, greedy, subarray-analysis
+array, greedy
