@@ -83,4 +83,4 @@ Return this value as a single integer.
 
 ## Tags
 
-arrays. 
+array 
