@@ -82,4 +82,4 @@ The smallest missing non-negative integer is `4`.
 
 ## Tags
 
-arrays . 
+array 
