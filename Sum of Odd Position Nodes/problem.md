@@ -38,8 +38,6 @@ Return the total sum of all node values located at odd positions.
 Nodes at odd positions are `10`, `30`, and `50`.  
 Sum = 10 + 30 + 50 = 90.
 
----
-
 ### 2
 
 #### Input
@@ -75,7 +73,6 @@ Return the sum of node values at odd positions in the  Chain.
 - 1 ≤ n ≤ 1000  
 - 0 ≤ node.val ≤ 1000  
 
----
 
 ## Time Limit
 
@@ -87,4 +84,4 @@ Return the sum of node values at odd positions in the  Chain.
 
 ## Tags
 
-linked-list, sum, basic
+linked-list
