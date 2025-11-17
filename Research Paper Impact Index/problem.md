@@ -74,4 +74,4 @@ Return the H-index value.
 
 ## Tags
 
-arrays, sorting, counting, simulation, research-analysis
+array, sorting
