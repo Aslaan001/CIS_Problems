@@ -79,4 +79,5 @@ Return a single integer — the maximum possible profit achievable through any n
 256 MB  
 
 ## Tags  
-greedy, dynamic-programming, arrays, stock-trading  
+
+array, dynamic-programming, greedy
