@@ -74,4 +74,5 @@ Return a single integer — the maximum total amount that can be looted.
 
 
 ## Tags  
-dynamic-programming, greedy, optimization
+
+array, dynamic-programming, greedy
