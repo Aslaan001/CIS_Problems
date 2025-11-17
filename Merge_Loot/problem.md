@@ -89,4 +89,4 @@ Return the merged loot array `nums1` with all values in non-decreasing order.
 
 ## Tags
 
-arrays. 
+array
