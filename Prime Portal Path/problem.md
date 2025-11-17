@@ -93,4 +93,4 @@ to reach index n - 1 from index 0.
 512 MB  
 
 ## Tags  
-graphs, bfs, primes, math
+graph, breadth-first-search, maths
