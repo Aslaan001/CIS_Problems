@@ -88,4 +88,4 @@ Return a single integer — the total number of charming splits that can be made
 512 MB  
 
 ## Tags  
-arrays.
+array
