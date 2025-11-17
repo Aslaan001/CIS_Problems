@@ -2,12 +2,9 @@
 
 Binary Insertion Quest
 
-
 ## Slug
 
 binary-insertion-quest
-
-
 
 ## Difficulty
 
@@ -87,4 +84,4 @@ The key `10` should be inserted at index `3`: `[2, 4, 6, 8, 10]`.
 
 ## Tags
 
-arrays , binary-search 
+array, binary-search 
