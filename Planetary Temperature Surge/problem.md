@@ -80,4 +80,4 @@ If no greater temperature exists, return -1 for that position.
 
 ## Tags
 
-array, stack, monotonic-stack
+array, stack
