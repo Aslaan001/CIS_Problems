@@ -72,4 +72,4 @@ Return the data value of the middle node.
 
 
 ## Tags  
-linked-list, traversal, middle, basic  
+linked-list
