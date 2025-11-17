@@ -103,4 +103,4 @@ Input represents a valid binary tree
 
 ## Tags
 
-binary-tree, bfs, hashmap
+binary-tree, breadth-first-search, hash-table
