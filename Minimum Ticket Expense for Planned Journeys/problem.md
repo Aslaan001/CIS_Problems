@@ -79,4 +79,4 @@ Return a single integer — the minimum possible total cost to cover all travel 
 256 MB  
 
 ## Tags  
-dynamic-programming, cost-optimization, planning, scheduling  
+array, dynamic-programming 
