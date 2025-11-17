@@ -73,4 +73,4 @@ Return a single integer: the minimum initial stamina required.
 512 MB  
 
 ## Tags  
-dynamic programming, grid traversal
+array, dynamic-programming
