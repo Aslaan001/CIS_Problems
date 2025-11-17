@@ -64,4 +64,4 @@ Retrun a single integer — the length of the longest continuous increasing stre
 
 ## Tags  
 
-array, sliding-window, dynamic-programming
+array, sliding-window, dynamic-programming, maths
