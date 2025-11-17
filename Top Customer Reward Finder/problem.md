@@ -91,4 +91,4 @@ Return the `k-th highest spending amount`.
 
 ## Tags  
 
-arrays, sorting.
+array, sorting
