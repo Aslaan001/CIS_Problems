@@ -17,7 +17,7 @@ You are given `two strings` of equal length consisting of lowercase English lett
 
 Your task is to determine whether the first string can be made equal to the second string by performing `exactly one swap` of two characters in the first string.  
 
-If it is possible, return `"YES"`; otherwise, return `"NO"`.
+If it is possible, return `"YES"` otherwise, return `"NO"`.
 
 
 ## Examples
@@ -83,4 +83,4 @@ No single swap in the first string can make it equal to the second string.
 
 ## Tags
 
-strings, swapping.
+string
