@@ -89,4 +89,4 @@ Return a single integer — the bitwise OR of all even numbers in the array, or 
 
 ## Tags  
 
-bitwise-operations, arrays, iteration  
+bit-manipulation, array 
