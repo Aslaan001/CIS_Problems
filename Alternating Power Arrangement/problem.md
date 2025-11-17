@@ -58,7 +58,7 @@ The alternating score becomes:
 
 ## Output Format  
 
-Print a single integer — the maximum alternating power score possible after rearranging the elements.  
+Return a single integer — the maximum alternating power score possible after rearranging the elements.  
 
 
 ## Constraints  
