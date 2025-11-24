@@ -75,3 +75,8 @@ This configuration traps `9 units` of water.
 ## Tags
 
 arrays, two-pointers, stack, prefix-max
+
+
+## Company
+
+Snap-Chat

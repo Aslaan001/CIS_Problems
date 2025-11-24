@@ -75,3 +75,6 @@ Repeating the removal of the substring xy eventually reduces the string to ab.
 ## Tags
 
 strings, stack, simulation
+
+## Company
+Make My Trip

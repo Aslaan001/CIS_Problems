@@ -78,3 +78,8 @@ The longest balanced segment is "()()".
 ## Tags
 
 stack, dynamic-programming, two-pointers, strings
+
+
+## Company
+
+Morgan Stanley

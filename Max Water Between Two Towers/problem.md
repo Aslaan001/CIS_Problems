@@ -75,3 +75,7 @@ Both towers have the same height, forming a container of width 1 and height 1.
 ## Tags
 
 two-pointers, greedy, arrays
+
+## Company
+
+Google
