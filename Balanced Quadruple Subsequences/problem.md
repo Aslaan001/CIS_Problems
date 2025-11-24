@@ -23,7 +23,7 @@ A subsequence is defined by its set of indices, not by the values alone.
 
 ## Examples  
 
-### Example 1  
+### 1  
 
 #### Input  
 7  
@@ -42,7 +42,7 @@ nums[q] * nums[s] = 3 * 1 = 3
 
 Hence, the condition is satisfied.  
 
-### Example 2  
+### 2  
 
 #### Input  
 8  
@@ -81,5 +81,5 @@ Return a single integer — the total number of balanced quadruple subsequences 
 512 MB  
 
 ## Tags  
-arrays.
+array
 

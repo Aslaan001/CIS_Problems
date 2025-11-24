@@ -86,4 +86,4 @@ Already sorted, so no mismatches.
 
 ## Tags
 
-array, sorting, counting
+array, sorting

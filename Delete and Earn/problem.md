@@ -63,4 +63,4 @@ nums = [2, 2, 3, 3, 3, 4]
 
 ## Tags
 
-dp, array, greedy
+dynamic-programming, array, greedy

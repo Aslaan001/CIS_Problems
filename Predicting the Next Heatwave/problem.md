@@ -91,4 +91,4 @@ temperatures = [65, 70, 68, 72, 66, 75, 71]
 
 ## Tags
 
-stack, array, monotonic-stack
+stack, array

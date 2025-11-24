@@ -58,4 +58,4 @@ For each test case, print the data of all nodes in the sorted linked list on a n
 512 MB
 
 ## Tags
-linked-list, sorting, two-pointers, merge-sort
+linked-list, sorting, two-pointers

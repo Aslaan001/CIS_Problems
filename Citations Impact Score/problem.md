@@ -19,7 +19,7 @@ each cited at least `k` times.
 
 ## Examples  
 
-### Example 1  
+### 1  
 
 #### Input  
 5  
@@ -33,7 +33,7 @@ The researcher has 5 papers with citation counts `[0, 1, 3, 5, 6]`.
 There are 3 papers with at least 3 citations each, so the `K-Index` is `3`.  
 
 
-### Example 2  
+### 2  
 
 #### Input  
 3  
@@ -57,7 +57,7 @@ so the `K-Index` is `2`.
 
 ## Output Format  
 
-Print a single integer — the researcher's `K-Index`.  
+Return a single integer — the researcher's `K-Index`.  
 
 
 
@@ -80,4 +80,4 @@ citations is sorted in ascending order.
 
 ## Tags  
 
-binary-search.
+binary-search

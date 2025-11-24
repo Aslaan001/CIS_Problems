@@ -2,12 +2,9 @@
 
 Integer Square Root
 
-
 ## Slug
 
 integer-square-root
-
-
 
 ## Difficulty
 
@@ -19,8 +16,6 @@ Given a non-negative integer `x`, find the `integer part of the square root` of 
 You must `not use built-in square root functions`.  
 
 Formally, find the largest integer `r` such that:   r * r <= x
-
-
 
 ## Examples
 
@@ -36,8 +31,6 @@ Formally, find the largest integer `r` such that:   r * r <= x
 #### Explanation
 3² = 9 ≤ 10, 4² = 16 > 10    
     
-
-
 ### 2
 
 #### Input
@@ -48,7 +41,6 @@ Formally, find the largest integer `r` such that:   r * r <= x
 
 5
   
-
 ## Input Format  
 
 - A single integer `x` (0 ≤ x ≤ 10¹⁸)  
@@ -72,4 +64,4 @@ Formally, find the largest integer `r` such that:   r * r <= x
 
 ## Tags
 
-maths , binary-search 
+maths, binary-search 

@@ -78,4 +78,4 @@ Return a single integer: the maximum non-negative path product modulo 1000000007
 
 ## Tags  
 
-dynamic programming.
+array, dynamic-programming

@@ -74,4 +74,5 @@ Return a single integer — the maximum coins you can collect by bursting the ba
 256 MB  
 
 ## Tags  
-dynamic-programming, divide-and-conquer, interval-dp, optimization  
+ 
+array, dynamic-programming, divide-and-conquer

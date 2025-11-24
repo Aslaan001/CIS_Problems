@@ -82,4 +82,4 @@ nums is sorted in non-decreasing order.
 
 ## Tags  
 
-arrays, prefix-sum.
+array, prefix-sum

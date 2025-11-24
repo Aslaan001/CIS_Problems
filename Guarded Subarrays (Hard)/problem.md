@@ -84,4 +84,4 @@ All elements of `nums` are distinct.
 512 MB  
 
 ## Tags  
-arrays, two-pointers, stack, sliding-window  
+array, two-pointers, stack, sliding-window  

@@ -82,4 +82,4 @@ to make all elements of the array equal.
 
 ## Tags  
 
-bitwise,arrays,greedy,simulation
+bit-manipulation ,array, greedy

@@ -20,32 +20,32 @@ Return the maximum product value that can be achieved.
 
 ## Examples  
 
-### Example 1 
+### 1 
 
-Input  
+#### Input  
 3  
 5 0 9  
 
-Output  
+#### Output  
 4500000  
 
-Explanation  
+#### Explanation  
 Replacing 0 with -100000 gives the array [5, -100000, 9].  
 The product 5 * (-100000) * 9 = -4500000.  
 Replacing 0 with 100000 gives [5, 100000, 9], producing 5 * 100000 * 9 = 4500000.  
 The maximum possible product is 4500000.  
 
 
-### Example 2  
+### 2  
 
-Input  
+#### Input  
 5  
 -3 -2 -7 -5 -9  
 
-Output  
+#### Output  
 6300000 
 
-Explanation  
+#### Explanation  
 -9 * -7 * 1e5 = 6300000
 
 
@@ -77,4 +77,4 @@ Return a single integer representing the maximum possible product of any three e
 
 ## Tags  
 
-arrays 
+array

@@ -12,8 +12,8 @@ Medium
 Given the `head` of a singly linked list and two integers `m` and `n`, reverse the nodes of the list from position `m` to position `n`.
 
 `Details:`
-* Positions are 1-indexed (i.e., `m=1` is the head node).
-* It is guaranteed that `1 <= m <= n <= length` of the list.
+- Positions are 1-indexed (i.e., `m=1` is the head node).
+- It is guaranteed that `1 <= m <= n <= length` of the list.
 
 ## Examples
 
@@ -83,4 +83,4 @@ For each test case, print the data of all nodes in the modified linked list on a
 512 MB
 
 ## Tags
-linked-list, two-pointers, reversal
+linked-list, two-pointers

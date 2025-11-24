@@ -37,8 +37,8 @@ Your goal is to count the total number of `balanced subarrays` in the given arra
 #### Explanation  
 There are two balanced subarrays:  
 
-1. `[9, 3, 3, 3, 9]` → 9 = 3 + 3 + 3  
-2. `[3, 3, 3]` → 3 = 3  
+- 1. `[9, 3, 3, 3, 9]` → 9 = 3 + 3 + 3  
+- 2. `[3, 3, 3]` → 3 = 3  
 
 Both satisfy the condition where boundary values equal the interior sum.  
 
@@ -97,4 +97,4 @@ Return a single integer — the count of balanced subarrays.
 
 ## Tags  
 
-arrays, prefix-sum.
+array, prefix-sum

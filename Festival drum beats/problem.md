@@ -91,4 +91,4 @@ A list of lists, where each inner list contains the node values of a row, traver
 
 ## Tags
 
-binary-tree, bfs
+tree, breadth-first-search

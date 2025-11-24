@@ -20,7 +20,7 @@ Your task is to determine how many harmonious selections can be made.
 
 ## Examples  
 
-### Example 1
+### 1
 
 Input  
 3  
@@ -34,7 +34,7 @@ Explanation
 Valid harmonious selections include:
 [2], [4], [6], and [2, 6].
 
-### Example 2
+### 2
 
 Input  
 1  
@@ -73,4 +73,4 @@ Return the total number of non-empty harmonious selections.
 
 ## Tags  
 
-combinatorial counting.
+array, hash-table

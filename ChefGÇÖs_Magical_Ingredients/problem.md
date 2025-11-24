@@ -90,4 +90,4 @@ Return a single integer — the sum of the minimums of all contiguous subarrays,
 
 ## Tags
 
-monotonic-stack, subarrays, dynamic-programming
+stack, array, dynamic-programming

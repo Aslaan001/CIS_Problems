@@ -94,4 +94,4 @@ If no taller building exists, output -1 for that position.
 
 ## Tags
 
-array, stack, monotonic-stack
+array, stack

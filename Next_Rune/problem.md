@@ -78,4 +78,4 @@ The next rune greater than `'c'` is `'f'`.
 
 ## Tags
 
-binary-search, arrays, strings. 
+binary-search, array, string

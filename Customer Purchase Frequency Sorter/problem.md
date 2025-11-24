@@ -90,4 +90,4 @@ Return the sorted product IDs according to the rules.
 
 ## Tags
 
-arrays, sorting, frequency, hashmap, retail-analytics
+array, sorting, hash-table

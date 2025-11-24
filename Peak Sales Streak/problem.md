@@ -79,4 +79,4 @@ Return the `maximum total profit` possible in a continuous streak of days.
 
 ## Tags  
 
-arrays,kadane-algorithm  
+array

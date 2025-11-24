@@ -88,4 +88,5 @@ Return a single integer — the minimum number of elements that must be removed 
 
 
 ## Tags  
-arrays, dynamic-programming, longest-increasing-subsequence, optimization  
+ 
+array, dynamic-programming

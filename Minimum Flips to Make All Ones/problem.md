@@ -72,4 +72,4 @@ Return a single integer — the minimum number of operations needed to make all 
 
 ## Tags  
 
-greedy.
+array, greedy

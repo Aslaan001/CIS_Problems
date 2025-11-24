@@ -88,4 +88,4 @@ All ranks are unique.
 256 MB  
 
 ## Tags  
-arrays, counting, dynamic-programming, combinatorics
+array, dynamic-programming

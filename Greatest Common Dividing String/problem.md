@@ -77,6 +77,6 @@ str1 = "LEET", str2 = "CODE"
 
 ## Tags
 
-string, gcd, string-manipulation
+string, maths
 
 

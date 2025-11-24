@@ -75,4 +75,5 @@ Return a single integer — the maximum total amount that can be collected.
 
 
 ## Tags  
-dynamic-programming, circular-array, optimization
+
+array, dynamic-programming

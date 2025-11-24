@@ -21,7 +21,6 @@ Swap the `kth node from the start` with the `kth node from the end` in the Ciphe
 The chain uses `1-based indexing`, and your goal is to return the `updated Cipher Chain` after the swap.
 
 
-
 ## Examples
 
 ### 1 
@@ -93,4 +92,4 @@ Return Head of updated Cipher Chain after performing the swap.
 
 ## Tags
 
-linked-list, arrays.
+linked-list, array

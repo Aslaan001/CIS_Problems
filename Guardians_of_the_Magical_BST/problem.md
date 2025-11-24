@@ -96,4 +96,4 @@ Return the root node of BST after updation.
 
 ## Tags
 
-Binary Tree, Binary Search Tree, Recursion, Tree Manipulation
+tree, binary-search-tree, recursion

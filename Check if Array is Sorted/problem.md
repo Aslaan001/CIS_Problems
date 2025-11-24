@@ -18,14 +18,10 @@ Your task is to check whether the array is `sorted in non-decreasing order`.
 If the array is sorted, return `YES`.  
 Otherwise, return `NO`.
 
----
-
-### Example 1
+## Examples
+### 1
 
 #### Input
-
-
-
 5
 1 2 3 4 5
 
@@ -58,14 +54,10 @@ The array is in decreasing order, so it is `not sorted`.
 - Return `"YES"` if the array is sorted in non-decreasing order.  
 - Otherwise, Return `"NO"`.
 
-
-
-
 ## Constraints
 
 - 1 ≤ n ≤ 10⁶  
 - 1 ≤ arr[i] ≤ 10⁶   
-
 
 ## Time Limit
 
@@ -75,8 +67,6 @@ The array is in decreasing order, so it is `not sorted`.
 
 512 MB
 
-
-
 ## Tags
 
-arrays, sorting.
+array, sorting.
