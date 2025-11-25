@@ -1,8 +1,4 @@
 ## CPP
-
-#include <vector>
-using namespace std;
-
 long long guardedSubarrays(vector<int>& nums) {
     // add your code here
     return 0;

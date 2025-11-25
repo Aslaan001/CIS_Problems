@@ -2,9 +2,6 @@
 
 ### SOLUTION
 
-#include <bits/stdc++.h>
-using namespace std;
-
 int dp[305][305];
 
 int solve(vector<int>& vals, int l, int r) {
@@ -28,10 +25,10 @@ int maximumCoinsFromBurstingBalloons(vector<int>& vals) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -65,19 +62,16 @@ public static int maximumCoinsFromBurstingBalloons(int[] vals) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
 ## C
 
 ### SOLUTION
-
-#include <stdio.h>
-#include <string.h>
 
 int dp[305][305];
 
@@ -103,10 +97,10 @@ int maximumCoinsFromBurstingBalloons(int* vals, int n) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -135,18 +129,16 @@ function maximumCoinsFromBurstingBalloons(vals) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
 ## PYTHON
 
 ### SOLUTION
-
-from functools import lru_cache
 
 def maximum_coins_from_bursting_balloons(vals):
     nums = [1] + vals + [1]
@@ -166,8 +158,8 @@ def maximum_coins_from_bursting_balloons(vals):
 
 ### METADATA
 
-TimeLimit  
-1000
+**TimeLimit**  
+5500
 
-MemoryLimit  
+**MemoryLimit**  
 512

@@ -16,8 +16,6 @@ public static int maximumCoinsFromBurstingBalloons(int[] vals) {
 
 ## C
 
-#include <stdlib.h>
-
 int maximumCoinsFromBurstingBalloons(int* vals, int n) {
     // add your code here
     return 0;

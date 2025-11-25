@@ -22,10 +22,10 @@ long long guardedSubarrays(vector<int>& nums) {
 
 ### METADATA
 
-TimeLimit
+**TimeLimit**
 1000
 
-MemoryLimit
+**MemoryLimit**
 512
 
 
@@ -56,10 +56,10 @@ public static long guardedSubarrays(int[] nums) {
 
 ### METADATA
 
-TimeLimit
+**TimeLimit**
 1000
 
-MemoryLimit
+**MemoryLimit**
 512
 
 
@@ -90,12 +90,11 @@ long long guardedSubarrays(int* nums, int n) {
 
 ### METADATA
 
-TimeLimit
+**TimeLimit**
 1000
 
-MemoryLimit
+**MemoryLimit**
 512
-
 
 ## JAVASCRIPT
 
@@ -122,10 +121,10 @@ function guardedSubarrays(nums) {
 
 ### METADATA
 
-TimeLimit
+**TimeLimit**
 1000
 
-MemoryLimit
+**MemoryLimit**
 512
 
 
@@ -149,8 +148,8 @@ def guarded_subarrays(nums):
 
 ### METADATA
 
-TimeLimit
+**TimeLimit**
 1000
 
-MemoryLimit
+**MemoryLimit**
 512

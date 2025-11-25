@@ -98,6 +98,9 @@ main();
 
 ## PYTHON
 
+import collections
+from functools import lru_cache
+
 # user code comes here
 
 def main():
