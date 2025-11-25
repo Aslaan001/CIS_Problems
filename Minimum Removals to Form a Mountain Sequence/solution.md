@@ -2,9 +2,6 @@
 
 ### SOLUTION
 
-#include <bits/stdc++.h>
-using namespace std;
-
 int minimumRemovalsToFormMountainSequence(vector<int>& vals) {
     int n = vals.size();
     vector<int> left(n, 1), right(n, 1);
@@ -34,10 +31,10 @@ int minimumRemovalsToFormMountainSequence(vector<int>& vals) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -80,18 +77,16 @@ public static int minimumRemovalsToFormMountainSequence(int[] vals) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
 ## C
 
 ### SOLUTION
-
-#include <stdio.h>
 
 int minimumRemovalsToFormMountainSequence(int* vals, int n) {
     int left[n], right[n];
@@ -124,10 +119,10 @@ int minimumRemovalsToFormMountainSequence(int* vals, int n) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -163,10 +158,10 @@ function minimumRemovalsToFormMountainSequence(vals) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -198,8 +193,8 @@ def minimum_removals_to_form_mountain_sequence(vals):
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512

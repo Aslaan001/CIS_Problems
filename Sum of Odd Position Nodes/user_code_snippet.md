@@ -14,7 +14,7 @@ class Node {
 
 int sumOddPositions(Node* head) {
     // add your code here
-    return 0;
+    
 }
 
 
@@ -34,7 +34,7 @@ class Node {
 
 public static int sumOddPositions(Node head) {
     // add your code here
-    return 0;
+    
 }
 
 
@@ -51,7 +51,7 @@ struct Node {
 
 int sumOddPositions(struct Node* head) {
     // add your code here
-    return 0;
+    
 }
 
 
@@ -70,7 +70,6 @@ class Node {
 
 function sumOddPositions(head) {
     // add your code here
-    return 0;
 }
 
 
@@ -84,4 +83,3 @@ function sumOddPositions(head) {
 
 def sum_odd_positions(head):
     # add your code here
-    return 0
