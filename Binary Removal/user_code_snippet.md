@@ -26,4 +26,3 @@ function binaryRemoval(s) {
 
 def binaryRemoval(s: str) -> str:
     # add your code here
-    ...
