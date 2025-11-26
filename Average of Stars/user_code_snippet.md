@@ -26,4 +26,3 @@ function averageOfStars(nums) {
 
 def averageOfStars(nums):
     # add your code here
-    pass

@@ -98,6 +98,8 @@ main();
 
 ## PYTHON
 
+import collections
+
 # user code comes here
 
 def main():

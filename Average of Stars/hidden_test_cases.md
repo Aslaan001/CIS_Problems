@@ -97,7 +97,7 @@
 ```
 **Expected Output**
 ```
-308
+3
 ```
 
 ### Test Case 9

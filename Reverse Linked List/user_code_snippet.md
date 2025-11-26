@@ -14,7 +14,6 @@ class Node {
 
 Node* reverseList(Node* head) {
     // add your code here
-    return head;
 }
 
 
@@ -34,7 +33,6 @@ class Node {
 
 public static Node reverseList(Node head) {
     // add your code here
-    return head;
 }
 
 
@@ -51,7 +49,6 @@ struct Node {
 
 struct Node* reverseList(struct Node* head) {
     // add your code here
-    return head;
 }
 
 
@@ -70,7 +67,6 @@ class Node {
 
 function reverseList(head) {
     // add your code here
-    return head;
 }
 
 
@@ -84,4 +80,3 @@ function reverseList(head) {
 
 def reverse_list(head):
     # add your code here
-    return head
