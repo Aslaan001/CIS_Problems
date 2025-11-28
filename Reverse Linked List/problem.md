@@ -9,11 +9,11 @@ Easy
 
 ## Description  
 
-In the problem, each chain of nodes flows in one direction.  
+Each chain of nodes flows in one direction.  
 Your mission is to `reverse the direction` of this chain, so the last node becomes the first.  
 
 You are given the head of a linked list.  
-Return the new head of the list after reversing it.  
+Return the new head of the list after reversing it.   
 
 
 ## Examples  
@@ -54,7 +54,7 @@ Note: The nodes are provided as a linked list in order.
 
 
 ## Output Format  
-Return the new head of the reversed linked list, printed from head to tail.  
+Return the new head of the reversed linked list.  
 
 
 ## Constraints  
