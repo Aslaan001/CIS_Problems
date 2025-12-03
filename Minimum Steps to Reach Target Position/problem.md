@@ -19,7 +19,7 @@ The car follows two types of instructions:
   speed becomes speed * 2  
 
 - R: reverse direction  
-  if speed > 0 then speed becomes -1  
+  if speed > 0 then speed becomes speed - 1  
   else speed becomes +1  
   position does not change  
 
