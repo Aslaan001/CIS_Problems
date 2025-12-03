@@ -14,10 +14,10 @@ int countValidSequences(int n) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit** 
 1000
 
-MemoryLimit  
+**MemoryLimit** 
 512
 
 
@@ -37,10 +37,10 @@ public static int countValidSequences(int n) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -60,10 +60,10 @@ long long countValidSequences(int n) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit** 
 512
 
 
@@ -83,10 +83,10 @@ function countValidSequences(n) {
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit**  
 512
 
 
@@ -104,8 +104,8 @@ def count_valid_sequences(n):
 
 ### METADATA
 
-TimeLimit  
+**TimeLimit**  
 1000
 
-MemoryLimit  
+**MemoryLimit** 
 512
