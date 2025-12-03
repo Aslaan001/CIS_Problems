@@ -84,7 +84,7 @@ s[i] ∈ {0, 1}
 512 MB
 
 ## Tags
-greedy, dynamic-programming, string, prefix-processing
+greedy, dynamic-programming, string, prefix-sum
 
 ## Company
 hackwithinfy
