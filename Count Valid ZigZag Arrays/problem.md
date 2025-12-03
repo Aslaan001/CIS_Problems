@@ -59,7 +59,7 @@ Return a single integer — the total number of valid ZigZag arrays modulo 10000
 512 MB
 
 ## Tags
-dynamic programming, prefix sums
+dynamic-programming, prefix-sum
 
 ## Company
 hackwithinfy
