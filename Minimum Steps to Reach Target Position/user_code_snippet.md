@@ -8,7 +8,7 @@ int raceCar(int t) {
 
 ## JAVA
 
-public static int raceCar(int target) {
+public static int raceCar(int t) {
     // add your code here
     
 }
@@ -16,7 +16,7 @@ public static int raceCar(int target) {
 
 ## C
 
-int raceCar(int target) {
+int raceCar(int t) {
     // add your code here
     
 }
@@ -24,7 +24,7 @@ int raceCar(int target) {
 
 ## JAVASCRIPT
 
-function raceCar(target) {
+function raceCar(t) {
     // add your code here
     
 }
@@ -32,6 +32,6 @@ function raceCar(target) {
 
 ## PYTHON
 
-def race_car(target):
+def race_car(t):
     # add your code here
     
