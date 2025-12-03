@@ -72,4 +72,9 @@ The total sum of all m values does not exceed 200000.
 1024
 
 ## Tags
-greedy, intervals, bruteforce, two-pointers, combinatorics
+combinatorics, hackwithinfy.
+
+## Company
+infosys
+
+

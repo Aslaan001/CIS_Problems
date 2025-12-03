@@ -70,4 +70,7 @@ Sum of n² across all test cases ≤ 10000
 512
 
 ## Tags
-permutation,combinatorics,simulation,dp
+combinatorics,dp,hackwithinfy.
+
+## Company
+infosys

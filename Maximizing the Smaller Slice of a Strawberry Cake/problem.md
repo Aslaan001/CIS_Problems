@@ -77,4 +77,7 @@ All strawberry positions are distinct
 256 megabytes
 
 ## Tags
-geometry, circle, half-plane, angular-sweep, optimization, trigonometry
+geometry, hackwithinfy.
+
+## Company
+infosys

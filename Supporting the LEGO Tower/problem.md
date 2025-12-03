@@ -73,4 +73,7 @@ xᵢ < xᵢ₊₁
 256 megabytes
 
 ## Tags
-geometry, construction, greedy, intervals, stacking, support-structure
+geometry, hackwithinfy.
+
+## Company
+infosys
