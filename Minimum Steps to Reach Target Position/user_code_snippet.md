@@ -1,6 +1,6 @@
 ## CPP
 
-int raceCar(int target) {
+int raceCar(int t) {
     // add your code here
     
 }
