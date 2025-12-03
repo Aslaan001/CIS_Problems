@@ -72,7 +72,7 @@ Return a single integer — the number of valid pickup-delivery sequences modulo
 512 MB
 
 ## Tags
-combinatorics, math, counting, dynamic-programming
+combinatrics, maths, dynamic-programming
 
 
 ## Company

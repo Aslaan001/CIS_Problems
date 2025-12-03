@@ -24,8 +24,8 @@ long long minCost(const string &s) {
 
 ### SOLUTION
 
-public static long minCost(String s) {
-    long res = 0;
+public static int minCost(String s) {
+    int res = 0;
     int n = s.length();
     for (int i = 1; i < n; ++i) {
         if (s.charAt(i - 1) != s.charAt(i)) res += Math.min(i, n - i);

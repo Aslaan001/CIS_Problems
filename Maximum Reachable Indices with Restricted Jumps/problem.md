@@ -28,35 +28,60 @@ Your goal is to determine the `maximum number of distinct indices` that can be v
 
 ## Examples
 
-### 1
+## 1
 
 #### Input
-11  
-6 4 14 6 8 13 9 7 10 6 12  
+
+11
+6 4 14 6 8 13 9 7 10 6 12
 2
 
 #### Output
+
 4
 
-### 2
+#### Explanation
+
+Starting from value 14 (index 2), you can jump to smaller heights within distance 2.
+You can reach indices: 2 → 1 → 0 and 2 → 3.
+Total reachable = 4.
+
+## 2
 
 #### Input
-5  
-3 3 3 3 3  
+
+5
+3 3 3 3 3
 3
 
 #### Output
+
 1
 
-### 3
+#### Explanation
+
+All values are equal, so arr[i] > arr[j] is never true.
+No jumps possible.
+Maximum reachable = 1 (stay where you start).
+
+## Example 3
 
 #### Input
-7  
-7 6 5 4 3 2 1  
+
+7
+7 6 5 4 3 2 1
 1
 
 #### Output
+
 7
+
+#### Explanation
+
+Strictly decreasing, and jump distance = 1.
+You can keep moving to the next smaller value.
+You can visit all indices.
+Total = 7.
 
 ## Input Format
 
@@ -81,7 +106,7 @@ Return a single integer — the `maximum number of reachable indices`.
 `512 MB`
 
 ## Tags
-dp, dfs, graph, monotonic, jumps
+dynamic-programming, depth-first-search, graph
 
 
 ## Company
