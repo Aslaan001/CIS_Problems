@@ -201,7 +201,7 @@ function countZigZagArrays(n, l, r) {
 ### METADATA
 
 **TimeLimit**  
-1000
+4800
 
 **MemoryLimit**  
 512
@@ -250,7 +250,7 @@ def count_zigzag_arrays(n, l, r):
 ### METADATA
 
 **TimeLimit**  
-1000
+7000
 
 **MemoryLimit**  
 512
