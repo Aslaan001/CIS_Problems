@@ -62,7 +62,7 @@ Return a single integer — the maximum sum of any trionic subarray in nums.
 512 MB
 
 ## Tags
-two-pointers, dynamic-programming, sliding-window, arrays
+two-pointers, dynamic-programming, sliding-window, array
 
 ## Company
 hackwithinfy
