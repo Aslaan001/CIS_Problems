@@ -93,6 +93,7 @@ rl.on("close",()=>{
 ## PYTHON
 
 import sys
+import collections
 
 # user code comes here
 
