@@ -39,6 +39,11 @@ It is guaranteed that a valid construction always exists.
 #### Output
 0
 
+#### Explanation
+
+All purple bricks are placed at height h = 0.
+A brick at height 0 already rests on the ground, so no extra support is needed.
+
 ### 2
 #### Input
 4 1
@@ -46,6 +51,18 @@ It is guaranteed that a valid construction always exists.
 
 #### Output
 3
+
+#### Explanation
+
+All purple bricks are at height h = 1, so each needs support from a brick at height 0.
+
+Their x-positions (2, 7, 11, 13) are far apart, but we can place support bricks anywhere we choose.
+Bricks at x = 2 and x = 7 each need their own support.
+
+However, a single support brick placed at x = 12 has base interval [11,13], which overlaps both purple bricks at x = 11 and x = 13.
+So one support brick can hold both of them.
+
+Thus we need supports at: 2, 7, and 12 → total 3 bricks.
 
 
 ## Input Format
