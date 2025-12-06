@@ -2,7 +2,6 @@
 
 long long reconstructPainting(int N, const vector<int>& s) {
     // add your code here
-    return 0;
 }
 
 
@@ -12,7 +11,6 @@ long long reconstructPainting(int N, const vector<int>& s) {
 
 public static long reconstructPainting(int n, int[] s) {
     // add your code here
-    return 0;
 }
 
 
