@@ -37,12 +37,18 @@ Return the number of valid permutations modulo 998244353.
 #### Output
 2
 
+#### Explanation:
+Cell 3 has final score 1. The only way to get that is to paint cell 3 first — then exactly one of the remaining two cells will later choose it as the nearest painted cell. There are 2! = 2 permutations with p1 = 3.
+
 ### 2
 #### Input
 3
 -1 -1 -1
 #### Output
 6
+
+#### Explanation:
+All scores are unknown, so every permutation of {1,2,3} is allowed. Number of permutations = 3! = 6.
 
 ### 3
 #### Input
@@ -70,7 +76,7 @@ Sum of n² across all test cases ≤ 10000
 512
 
 ## Tags
-combinatorics,dp,hackwithinfy.
+combinatorics,dynamic-programming,hackwithinfy
 
 ## Company
 infosys
