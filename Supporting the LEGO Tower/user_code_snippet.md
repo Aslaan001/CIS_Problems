@@ -1,11 +1,11 @@
 ## CPP
 
-long long minBricks(int n, long long h, const vector<long long>& x) {
-    return 0;
+long long minBricks(int n, long long h, const vector<long long>& a) {
+    // add your code here
 }
 
 ## JAVA
 
-public static long minBricks(int n, long h, long[] x) {
-    return 0;
+public static long minBricks(int n, long h, long[] a) {
+    // add your code here
 }

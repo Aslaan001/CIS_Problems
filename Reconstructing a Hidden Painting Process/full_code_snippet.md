@@ -47,7 +47,7 @@ public class Main {
             int[] s = new int[n];
             for (int i = 0; i < n; i++) s[i] = sc.nextInt();
             System.out.println(reconstructPainting(n, s));
-            // evaluation completed 
+            // evaluation completed
         }
         sc.close();
     }
