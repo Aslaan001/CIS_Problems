@@ -70,7 +70,7 @@ Return the number of permutations that could generate a compatible score sequenc
 Sum of n² across all test cases ≤ 10000
 
 ## Time Limit
-3000
+1 second
 
 ## Memory Limit
 512
