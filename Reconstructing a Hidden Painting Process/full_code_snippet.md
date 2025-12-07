@@ -23,6 +23,7 @@ int main() {
         for (int i = 0; i < n; i++) cin >> s[i];
 
         cout << reconstructPainting(n, s) << "\n";
+        // evaluation completed
     }
     return 0;
 }
@@ -46,6 +47,7 @@ public class Main {
             int[] s = new int[n];
             for (int i = 0; i < n; i++) s[i] = sc.nextInt();
             System.out.println(reconstructPainting(n, s));
+            // evaluation completed 
         }
         sc.close();
     }
