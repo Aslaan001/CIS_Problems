@@ -70,7 +70,7 @@ Sum of all m across test cases ≤ 2⋅10⁵
 512 megabytes
 
 ## Tags
-Dp, hackwithinfy
+dynamic-programming, hackwithinfy
 
 ## Company
-infosys.
+infosys

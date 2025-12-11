@@ -67,7 +67,7 @@ Sum of all n across test cases ≤ 2×10⁵
 256 megabytes
 
 ## Tags
-dp,BinarySearch,hackwithinfy.
+dynamic-programming, hackwithinfy
 
 ## Company
 infosys
