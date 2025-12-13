@@ -1,0 +1,217 @@
+## Hidden Test Cases
+
+### Test Case 1
+**Input**
+```
+1 2
+A A
+12
+```
+**Expected Output**
+```
+1 0 0 0 0 0 0 0 0 0 0 0 0 
+```
+---
+### Test Case 2
+**Input**
+```
+1 2
+A A
+10
+```
+**Expected Output**
+```
+1 0 0 0 0 0 0 0 0 0 0 
+```
+
+---
+
+### Test Case 3
+**Input**
+```
+1 2
+A A
+1
+```
+**Expected Output**
+```
+0 0
+```
+
+---
+
+### Test Case 4
+**Input**
+```
+1 2
+A A
+9
+```
+**Expected Output**
+```
+0 0 0 0 0 0 0 0 0 0 
+```
+
+
+---
+
+### Test Case 5
+**Input**
+```
+1 2
+B B
+9
+```
+**Expected Output**
+```
+0 0 0 0 0 0 0 0 0 0
+```
+
+---
+
+### Test Case 6
+**Input**
+```
+1 3
+A B C
+9
+```
+**Expected Output**
+```
+0 0 0 0 0 0 0 0 0 0 
+```
+
+---
+
+### Test Case 7
+**Input**
+```
+2 3
+A B C
+1 1
+```
+**Expected Output**
+```
+1 0 0
+```
+
+---
+
+### Test Case 8
+**Input**
+```
+20 40
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDE
+FGHIJ
+KLMNO
+PQRST
+ABCDE
+FGHIJ
+KLMNO
+PQRST
+ABCD
+EFGH
+IJKL
+MNOP
+QRST
+ABEF
+CDGH
+IJKM
+NOPQ
+RST
+ACDF
+BEGH
+IJKL
+MNOP
+QRST
+A
+B
+C
+D
+E
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+```
+**Expected Output**
+```
+0 0 0 0 0 0 0 0 12 32 58 30 60 79 10 10 27 0 0
+```
+---
+
+### Test Case 9
+**Input**
+```
+20 30
+ABCD
+EFGH
+IJKL
+MNOP
+QRST
+ACEGIKMOQ
+BDFHJLNPR
+ABEFIJMNQR
+CDGHKLOPST
+ABCDEFGH
+IJKLMNOP
+QRSTABCD
+EFGHIJKL
+MNOPQRST
+AEIMQU
+BFJNRV
+CGKOSW
+DHLPTX
+ABCDMNOP
+EFGHQRST
+ABCDE
+FGHIJ
+KLMNO
+PQRST
+ABCD
+EFGH
+IJKL
+MNOP
+QRST
+ABCDEFGHIJKLMNOPQRST
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71
+
+```
+**Expected Output**
+```
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 4 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 6 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 4 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 2 0 0 4 0 1 0 0 0 0 2 0 0 0 0 0 0 4 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 6 0 0 1 0 0 0 2 0 0 0 0 0 0 4 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 0 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+```
+---
+
+### Test Case 10
+**Input**
+```
+20 10
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRST
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+```
+**Expected Output**
+```
+0 0 0 0 0 0 0 0 0 0 0 
+```
+---
+
+
