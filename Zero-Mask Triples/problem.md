@@ -82,4 +82,4 @@ So all 27 triples are valid.
 
 ## Tags
 
-BitManipulation
+dynamic-programming

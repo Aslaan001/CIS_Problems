@@ -88,4 +88,4 @@ The XOR sum is:
 
 ## Tags
 
-BitmaskDP
+dynamic-programming

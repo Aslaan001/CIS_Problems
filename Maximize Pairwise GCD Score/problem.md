@@ -95,4 +95,4 @@ An optimal selection is:
 
 ## Tags
 
-BitmaskDP,Combinatorics
+dynamic-programming

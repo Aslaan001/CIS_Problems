@@ -90,4 +90,4 @@ Hence return -1.
 
 ## Tags
 
-DynamicProgramming
+dynamic-programming
