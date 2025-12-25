@@ -1,0 +1,117 @@
+## Hidden Test Cases
+
+### Test Case 1
+**Input**
+```
+2[abc]3[cd]e
+```
+**Expected Output**
+```
+abcabccdcdcde
+```
+---
+### Test Case 2
+**Input**
+```
+2[bc]3[cd]e
+```
+**Expected Output**
+```
+bcbccdcdcde
+```
+
+---
+
+### Test Case 3
+**Input**
+```
+2[bc]3[cd]
+```
+**Expected Output**
+```
+bcbccdcdcd
+```
+
+---
+
+### Test Case 4
+**Input**
+```
+2[bc]3[d]
+```
+**Expected Output**
+```
+bcbcddd
+```
+
+---
+
+### Test Case 5
+**Input**
+```
+2[bc]1[d]
+```
+**Expected Output**
+```
+bcbcd
+```
+
+---
+
+### Test Case 6
+**Input**
+```
+2[bc]1[dfd]
+```
+**Expected Output**
+```
+bcbcdfd
+```
+
+---
+
+### Test Case 7
+**Input**
+```
+2[bc]12[dfd]
+```
+**Expected Output**
+```
+bcbcdfddfddfddfddfddfddfddfddfddfddfddfd
+```
+
+---
+
+### Test Case 8
+**Input**
+```
+2[bc]12[dfdhdhdhdhj]
+```
+**Expected Output**
+```
+bcbcdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhj
+```
+
+### Test Case 9
+**Input**
+```
+2[bc]192[dfdhdhdhdhj]
+```
+**Expected Output**
+```
+bcbcdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhj
+```
+
+---
+
+### Test Case 10
+**Input**
+
+```
+12[bcgdggdg]192[dfdhdhdhdhj]
+
+```
+**Expected Output**
+```
+bcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgbcgdggdgdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhjdfdhdhdhdhj
+```
