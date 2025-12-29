@@ -2,9 +2,6 @@
 
 ### SOLUTION
 
-#include <bits/stdc++.h>
-using namespace std;
-
 long long maxAlternatingPower(vector<int>& nums) {
     for (auto &a : nums) a = abs(a);
     sort(nums.rbegin(), nums.rend());
@@ -36,25 +33,30 @@ MemoryLimit
 
 ### SOLUTION
 
-import java.util.*;
-
 public static long maxAlternatingPower(int[] nums) {
-        for (int i = 0; i < nums.length; i++) nums[i] = Math.abs(nums[i]);
-        Arrays.sort(nums);
-        int n = nums.length;
-        long ans = 0;
-        for (int i = n - 1; i >= n / 2; i--) {
-            ans += 1L * nums[i] * nums[i];
-        }
-        if (n % 2 != 0) {
-            ans += 1L * nums[n / 2] * nums[n / 2];
-        }
-        int s = (n % 2 != 0) ? (n / 2 + 1) : (n / 2);
-        for (int i = s; i < n / 2; i++) {
-            ans -= 1L * nums[i] * nums[i];
-        }
-        return ans;
+    for (int i = 0; i < nums.length; i++) {
+        nums[i] = Math.abs(nums[i]);
+    }
+
+    Arrays.sort(nums);
+    int n = nums.length;
+    long ans = 0;
+
+    for (int i = n - 1; i >= n - n / 2; i--) {
+        ans += 1L * nums[i] * nums[i];
+    }
+
+    if (n % 2 != 0) {
+        ans += 1L * nums[n / 2] * nums[n / 2];
+    }
+
+    for (int i = 0; i < n / 2; i++) {
+        ans -= 1L * nums[i] * nums[i];
+    }
+
+    return ans;
 }
+
 
 ### METADATA
 
@@ -111,20 +113,26 @@ MemoryLimit
 function maxAlternatingPower(nums) {
   nums = nums.map(x => Math.abs(x));
   nums.sort((a, b) => b - a);
+
   const n = nums.length;
-  let ans = 0n;
+  let ans = 0;
+
   for (let i = 0; i < Math.floor(n / 2); i++) {
-    ans += BigInt(nums[i]) * BigInt(nums[i]);
+    ans += nums[i] * nums[i];
   }
+
   if (n % 2 !== 0) {
-    ans += BigInt(nums[Math.floor(n / 2)]) * BigInt(nums[Math.floor(n / 2)]);
+    ans += nums[Math.floor(n / 2)] * nums[Math.floor(n / 2)];
   }
+
   let s = n % 2 !== 0 ? Math.floor(n / 2) + 1 : Math.floor(n / 2);
   for (let i = s; i < n; i++) {
-    ans -= BigInt(nums[i]) * BigInt(nums[i]);
+    ans -= nums[i] * nums[i];
   }
+
   return ans;
 }
+
 
 ### METADATA
 

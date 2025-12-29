@@ -8,7 +8,7 @@
 ```
 **Expected Output**
 ```
-20
+60
 ```
 ---
 ### Test Case 2
