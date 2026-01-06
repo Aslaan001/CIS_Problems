@@ -9,21 +9,29 @@ Medium
 
 ## Description  
 
-An organization is monitoring how confidential information spreads among its members over time.
+An organization wants to simulate how confidential information spreads among its members over a period of time.
 
-On day 1, exactly one person becomes aware of a confidential piece of information.
+On day 1, exactly one person knows the confidential information.
 
-Each person who knows the information follows these rules:
+When a person learns the information on some day X, they follow a fixed set of rules:
 
-- A person starts sharing the information with exactly one new person per day, beginning delay days after the day they first learned it.
-- A person forgets the information forget days after the day they first learned it.
-- A person cannot share the information on the day they forget it or on any day after that.
+- The person does not share the information immediately.  
+- They start sharing the information after delay days, which means they can first share on day X + delay.  
+- Once sharing starts, the person shares the information with exactly one new person per day.  
+- The person forgets the information after forget days, which means they forget it on day X + forget.  
+- On the day they forget the information, and on all days after that, they cannot share the information.  
+
+So, a person is allowed to share the information only during the time period:
+
+From day X + delay to day X + forget - 1
+
+Every new person who learns the information follows the same rules independently, causing the information to spread over multiple days.
 
 You are given three integers n, delay, and forget.
 
-Your task is to determine how many people still know the confidential information at the end of day n.
+Your task is to calculate how many people still remember the confidential information at the end of day n.
 
-Since the number of people can grow very large, return the result modulo 10^9 + 7.
+Since the number of people can become very large, return the answer modulo 10^9 + 7.
 
 ## Examples  
 
@@ -40,9 +48,9 @@ Since the number of people can grow very large, return the result modulo 10^9 + 
 #### Explanation  
 
 Day 1: One person knows the information.  
-Day 2: No new sharing occurs.  
+Day 2: No sharing happens because the waiting period is not complete.  
 Day 3: The first person shares the information with one new person.  
-Day 4: The first person shares the information again.  
+Day 4: The first person shares again with another new person.  
 Day 5: The first person forgets the information, while another person shares it.  
 Day 6: Two people share the information, resulting in five people knowing it.  
 
@@ -88,4 +96,4 @@ Return a single integer — the number of people who know the information at the
 
 ## Tags  
 
-dynamic-programming, queue  
+dynamic-programming, queue
