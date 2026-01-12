@@ -1,0 +1,117 @@
+## Hidden Test Cases
+
+### Test Case 1
+**Input**
+```
+A
+```
+**Expected Output**
+```
+Alpha
+```
+---
+### Test Case 2
+**Input**
+```
+B
+```
+**Expected Output**
+```
+Beta
+```
+
+---
+
+### Test Case 3
+**Input**
+```
+BBBBBB
+```
+**Expected Output**
+```
+Beta
+```
+
+---
+
+### Test Case 4
+**Input**
+```
+B
+```
+**Expected Output**
+```
+Beta
+```
+
+---
+
+### Test Case 5
+**Input**
+```
+AAAAAAA
+```
+**Expected Output**
+```
+Alpha
+```
+
+---
+
+### Test Case 6
+**Input**
+```
+AAAAAAA
+```
+**Expected Output**
+```
+Alpha
+```
+
+---
+
+### Test Case 7
+**Input**
+```
+BBBBBBBAA
+```
+**Expected Output**
+```
+Beta
+```
+
+---
+
+### Test Case 8
+**Input**
+```
+ABBBAAABBBBAAA
+```
+**Expected Output**
+```
+Beta
+```
+
+### Test Case 9
+**Input**
+```
+ABBBAAABBBBAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+```
+**Expected Output**
+```
+Alpha
+```
+
+---
+
+### Test Case 10
+**Input**
+
+```
+ABBBAAABBBBAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+```
+**Expected Output**
+```
+Beta
+```
